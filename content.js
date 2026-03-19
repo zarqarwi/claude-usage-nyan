@@ -2,6 +2,11 @@
 // 1. 監聽 injected.js 的 token 資料
 // 2. 在 claude.ai 頁面注入浮動狀態條
 
+// ── i18n helper for content script ──
+function ct(key) {
+  return chrome.i18n.getMessage(key) || key;
+}
+
 // ── Session data ──
 let sessionData = {
   messages: [],
@@ -73,11 +78,11 @@ function createFloatingBar() {
   bar.innerHTML = `
     <div id="nyan-bar-inner">
       <span id="nyan-bar-cat">🐱</span>
-      <span class="nyan-pill" id="nyan-5h" title="5 小時 Session">⏱ —</span>
-      <span class="nyan-pill" id="nyan-7d" title="7 天用量">📅 —</span>
-      <span class="nyan-pill" id="nyan-extra" title="額外用量">💳 —</span>
+      <span class="nyan-pill" id="nyan-5h" title="${ct('tierFiveHour')}">⏱ —</span>
+      <span class="nyan-pill" id="nyan-7d" title="${ct('tierSevenDay')}">📅 —</span>
+      <span class="nyan-pill" id="nyan-extra" title="${ct('tierExtra')}">💳 —</span>
       <span class="nyan-divider">│</span>
-      <span class="nyan-pill nyan-token" id="nyan-cost" title="即時 Token 費用">⚡ $0</span>
+      <span class="nyan-pill nyan-token" id="nyan-cost" title="${ct('tokenTracking')}">⚡ $0</span>
     </div>
   `;
 

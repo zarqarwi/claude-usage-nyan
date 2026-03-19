@@ -1,3 +1,5 @@
+🌐 **Language**: [繁體中文](README.md) | [English](README.en.md) | [日本語](README.ja.md)
+
 # 🐱 Claude 用量喵喵 — Claude Usage Nyan
 
 **一個可愛的 Chrome Extension，讓你隨時掌握 Claude 的用量狀態。**

@@ -12,10 +12,10 @@
     <header class="header">
       <img class="mascot" src="../icons/icon128.png" alt="喵喵">
       <div class="header-text">
-        <h1>Claude 用量喵喵</h1>
-        <p class="subtitle" id="org-name">載入中...</p>
+        <h1 data-i18n="appTitle">Claude 用量喵喵</h1>
+        <p class="subtitle" id="org-name" data-i18n="loading">載入中...</p>
       </div>
-      <button class="refresh-btn" id="refresh-btn" title="重新整理">
+      <button class="refresh-btn" id="refresh-btn" data-i18n-title="refreshTitle" title="重新整理">
         <span class="refresh-icon">↻</span>
       </button>
     </header>
@@ -23,33 +23,33 @@
     <!-- 狀態訊息 -->
     <div class="status-bar" id="status-bar">
       <span class="status-dot"></span>
-      <span class="status-text" id="status-text">正在連線...</span>
+      <span class="status-text" id="status-text" data-i18n="connecting">正在連線...</span>
     </div>
 
     <!-- 用量卡片區：官方用量 -->
     <div class="section-label" id="official-label" style="display: none;">
-      <span class="section-icon">📡</span> 官方用量（每 5 分鐘更新）
+      <span class="section-icon">📡</span> <span data-i18n="officialUsage">官方用量（每 5 分鐘更新）</span>
     </div>
     <div class="cards" id="cards-container">
     </div>
 
     <!-- 用量卡片區：即時 Token 追蹤 -->
     <div class="section-label" id="token-label" style="display: none;">
-      <span class="section-icon">⚡</span> 即時 Token 追蹤
+      <span class="section-icon">⚡</span> <span data-i18n="tokenTracking">即時 Token 追蹤</span>
     </div>
     <div class="token-section" id="token-section" style="display: none;">
       <div class="token-stats">
         <div class="token-stat-card mint">
           <div class="token-stat-value" id="total-input">0</div>
-          <div class="token-stat-label">Input tokens</div>
+          <div class="token-stat-label" data-i18n="inputTokens">Input tokens</div>
         </div>
         <div class="token-stat-card lavender">
           <div class="token-stat-value" id="total-output">0</div>
-          <div class="token-stat-label">Output tokens</div>
+          <div class="token-stat-label" data-i18n="outputTokens">Output tokens</div>
         </div>
         <div class="token-stat-card peach">
           <div class="token-stat-value" id="total-cost">$0.00</div>
-          <div class="token-stat-label">預估費用</div>
+          <div class="token-stat-label" data-i18n="estimatedCost">預估費用</div>
         </div>
       </div>
       <div class="token-meta">
@@ -59,36 +59,36 @@
         </span>
         <span class="token-meta-item">
           <span class="token-meta-icon">💬</span>
-          <span id="msg-count">0</span> 則對話
+          <span id="msg-count">0</span> <span data-i18n="conversations" class="conversations-label">則對話</span>
         </span>
-        <span class="token-meta-item tag" id="data-source-tag" style="display: none;">估算值</span>
+        <span class="token-meta-item tag" id="data-source-tag" style="display: none;" data-i18n="estimate">估算值</span>
       </div>
       <div class="token-recent" id="token-recent">
       </div>
-      <button class="reset-btn" id="reset-btn" title="重置 Token 計數">
-        🗑️ 重置計數
+      <button class="reset-btn" id="reset-btn" data-i18n-title="resetCountTitle" title="重置 Token 計數">
+        <span data-i18n="resetCount">🗑️ 重置計數</span>
       </button>
     </div>
 
     <!-- 無資料時的提示 -->
     <div class="empty-state" id="empty-state" style="display: none;">
       <div class="empty-cat">🐈</div>
-      <p>抓不到用量資料喵...</p>
-      <p class="empty-hint">請先登入 <a href="https://claude.ai" target="_blank">claude.ai</a></p>
+      <p data-i18n="emptyMsg">抓不到用量資料喵...</p>
+      <p class="empty-hint" data-i18n="emptyHint">請先登入 claude.ai</p>
     </div>
 
     <!-- 錯誤提示 -->
     <div class="error-state" id="error-state" style="display: none;">
       <div class="error-cat">🙀</div>
       <p class="error-msg" id="error-msg"></p>
-      <p class="empty-hint">試著重新整理看看？</p>
+      <p class="empty-hint" data-i18n="errorHint">試著重新整理看看？</p>
     </div>
 
     <!-- 底部 -->
     <footer class="footer">
-      <span class="footer-text" id="last-updated">尚未更新</span>
+      <span class="footer-text" id="last-updated" data-i18n="notUpdated">尚未更新</span>
       <span class="footer-divider">·</span>
-      <span class="footer-text">每 5 分鐘自動刷新</span>
+      <span class="footer-text" data-i18n="autoRefresh">每 5 分鐘自動刷新</span>
     </footer>
   </div>
 

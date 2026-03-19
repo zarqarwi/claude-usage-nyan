@@ -1,8 +1,9 @@
 {
   "manifest_version": 3,
-  "name": "Claude 用量喵喵 — Usage Tracker",
-  "version": "0.4.0",
-  "description": "用可愛的方式追蹤你的 Claude 用量 🐱 即時 token 估算 + 官方用量百分比",
+  "name": "__MSG_extName__",
+  "version": "0.5.0",
+  "description": "__MSG_extDescription__",
+  "default_locale": "zh_TW",
   "permissions": [
     "storage",
     "alarms",

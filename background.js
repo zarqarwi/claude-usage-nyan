@@ -114,7 +114,7 @@ function parseUsageData(raw) {
   if (raw.five_hour) {
     result.tiers.push({
       type: 'five_hour',
-      label: '⏱️ 5 小時 Session',
+      label: 'tierFiveHour',
       usagePercent: raw.five_hour.utilization ?? null,
       resetAt: raw.five_hour.resets_at ?? null,
     });
@@ -122,7 +122,7 @@ function parseUsageData(raw) {
   if (raw.seven_day) {
     result.tiers.push({
       type: 'seven_day',
-      label: '📅 7 天用量',
+      label: 'tierSevenDay',
       usagePercent: raw.seven_day.utilization ?? null,
       resetAt: raw.seven_day.resets_at ?? null,
     });
@@ -130,7 +130,7 @@ function parseUsageData(raw) {
   if (raw.extra_usage && raw.extra_usage.is_enabled) {
     result.tiers.push({
       type: 'extra_usage',
-      label: '💳 額外用量',
+      label: 'tierExtra',
       usagePercent: raw.extra_usage.utilization ?? null,
       used: raw.extra_usage.used_credits ?? null,
       limit: raw.extra_usage.monthly_limit ?? null,

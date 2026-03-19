@@ -1,5 +1,22 @@
 // popup.js — Claude 用量喵喵 popup 邏輯
 
+// ── i18n helper ──
+function t(key, ...subs) {
+  let msg = chrome.i18n.getMessage(key);
+  if (!msg) return key;
+  subs.forEach((s, i) => { msg = msg.replace(`$${i + 1}`, s); });
+  return msg;
+}
+
+function applyI18n() {
+  document.querySelectorAll('[data-i18n]').forEach(el => {
+    el.textContent = t(el.dataset.i18n);
+  });
+  document.querySelectorAll('[data-i18n-title]').forEach(el => {
+    el.title = t(el.dataset.i18nTitle);
+  });
+}
+
 const $ = (sel) => document.querySelector(sel);
 const cardsContainer = $('#cards-container');
 const emptyState = $('#empty-state');
@@ -25,6 +42,7 @@ const resetBtn = $('#reset-btn');
 
 // ── 初始化 ──
 document.addEventListener('DOMContentLoaded', () => {
+  applyI18n();
   loadData();
   loadTokenData();
   refreshBtn.addEventListener('click', handleRefresh);
@@ -42,7 +60,7 @@ document.addEventListener('DOMContentLoaded', () => {
 function loadData() {
   chrome.runtime.sendMessage({ type: 'GET_USAGE' }, (data) => {
     if (chrome.runtime.lastError) {
-      showError('無法連線到背景服務');
+      showError(t('bgConnFailed'));
       return;
     }
     renderData(data);
@@ -52,12 +70,12 @@ function loadData() {
 // ── 手動刷新 ──
 async function handleRefresh() {
   refreshBtn.classList.add('spinning');
-  setStatus('loading', '更新中喵...');
+  setStatus('loading', t('refreshing'));
 
   chrome.runtime.sendMessage({ type: 'REFRESH' }, (data) => {
     refreshBtn.classList.remove('spinning');
     if (chrome.runtime.lastError) {
-      showError('刷新失敗');
+      showError(t('refreshFailed'));
       return;
     }
     renderData(data);
@@ -92,7 +110,7 @@ function renderData(data) {
   cardsContainer.style.display = 'flex';
 
   orgName.textContent = data.orgName || 'Personal';
-  setStatus('ok', '已連線');
+  setStatus('ok', t('connected'));
   updateLastUpdated(data.lastUpdated);
 
   cardsContainer.innerHTML = '';
@@ -123,7 +141,7 @@ function createCard(tier) {
 
   card.innerHTML = `
     <div class="card-header">
-      <span class="card-label">${escapeHtml(tier.label)}</span>
+      <span class="card-label">${escapeHtml(t(tier.label))}</span>
       <span class="card-percent ${colorClass}">${Math.round(pct)}%</span>
     </div>
     <div class="progress-track">
@@ -168,16 +186,16 @@ function showRawData(data) {
   errorState.style.display = 'none';
   cardsContainer.style.display = 'flex';
 
-  setStatus('ok', '已連線（原始資料）');
+  setStatus('ok', t('connectedRaw'));
   updateLastUpdated(data.lastUpdated);
   orgName.textContent = data.orgName || 'Personal';
 
   cardsContainer.innerHTML = `
     <div class="usage-card green">
       <div class="card-header">
-        <span class="card-label">🔍 原始回傳資料</span>
+        <span class="card-label">${t('rawDataLabel')}</span>
       </div>
-      <pre style="font-size: 10px; color: var(--text-sub); 
+      <pre style="font-size: 10px; color: var(--text-sub);
            white-space: pre-wrap; word-break: break-all;
            max-height: 200px; overflow-y: auto;
            font-family: 'SF Mono', monospace; margin-top: 8px;
@@ -185,7 +203,7 @@ function showRawData(data) {
 ${escapeHtml(JSON.stringify(data.raw, null, 2))}
       </pre>
       <p style="font-size: 10px; color: var(--text-light); margin-top: 8px; text-align: center;">
-        API 回傳格式可能需要調整解析邏輯 🐱
+        ${t('rawDataHint')}
       </p>
     </div>
   `;
@@ -196,7 +214,7 @@ function showEmpty() {
   cardsContainer.style.display = 'none';
   errorState.style.display = 'none';
   emptyState.style.display = 'block';
-  setStatus('error', '未登入');
+  setStatus('error', t('notLoggedIn'));
 }
 
 // ── 錯誤狀態 ──
@@ -205,7 +223,7 @@ function showError(msg) {
   emptyState.style.display = 'none';
   errorState.style.display = 'block';
   $('#error-msg').textContent = msg;
-  setStatus('error', '連線異常');
+  setStatus('error', t('connError'));
 }
 
 // ── Helpers ──
@@ -224,17 +242,17 @@ function setStatus(type, text) {
 function updateLastUpdated(timestamp) {
   if (!timestamp) return;
   const ago = getTimeAgo(timestamp);
-  lastUpdated.textContent = `${ago}前更新`;
+  lastUpdated.textContent = t('updatedAgo', ago);
 }
 
 function getTimeAgo(timestamp) {
   const diff = Date.now() - timestamp;
   const sec = Math.floor(diff / 1000);
-  if (sec < 60) return `${sec} 秒`;
+  if (sec < 60) return t('seconds', sec);
   const min = Math.floor(sec / 60);
-  if (min < 60) return `${min} 分鐘`;
+  if (min < 60) return t('minutes', min);
   const hr = Math.floor(min / 60);
-  return `${hr} 小時`;
+  return t('hours', hr);
 }
 
 function formatResetTime(resetAt) {
@@ -243,13 +261,13 @@ function formatResetTime(resetAt) {
     if (isNaN(date.getTime())) return '';
 
     const diff = date.getTime() - Date.now();
-    if (diff <= 0) return '已重置';
+    if (diff <= 0) return t('alreadyReset');
 
     const hours = Math.floor(diff / (1000 * 60 * 60));
     const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
 
-    if (hours > 0) return `${hours}h ${minutes}m 後重置`;
-    return `${minutes}m 後重置`;
+    const timeStr = hours > 0 ? `${hours}h ${minutes}m` : `${minutes}m`;
+    return t('resetIn', timeStr);
   } catch {
     return '';
   }
@@ -295,15 +313,22 @@ function renderTokenData(data) {
   currentModel.textContent = simplifyModelName(data.lastModel);
   msgCount.textContent = (data.messages || []).length;
 
+  // 更新對話數的 i18n 文字
+  const convLabel = document.querySelector('.conversations-label');
+  if (convLabel) {
+    const count = (data.messages || []).length;
+    convLabel.textContent = t('conversations', count).replace(String(count), '').trim();
+  }
+
   // 最近有用官方數字嗎？
   const hasOfficial = (data.messages || []).some(m => m.isOfficial);
   if (hasOfficial) {
     dataSourceTag.style.display = 'inline';
-    dataSourceTag.textContent = '含官方數據';
+    dataSourceTag.textContent = t('hasOfficial');
     dataSourceTag.className = 'tag official';
   } else {
     dataSourceTag.style.display = 'inline';
-    dataSourceTag.textContent = '估算值';
+    dataSourceTag.textContent = t('estimate');
     dataSourceTag.className = 'tag';
   }
 

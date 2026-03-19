@@ -159,6 +159,7 @@ function createFloatingBar() {
   document.head.appendChild(style);
   document.body.appendChild(bar);
 
+  // 點貓貓可以收合/展開
   bar.querySelector('#nyan-bar-cat').addEventListener('click', () => {
     bar.classList.toggle('nyan-minimized');
   });
@@ -177,6 +178,7 @@ function colorClassForPct(pct) {
 function updateFloatingBar(usageData) {
   if (usageData) cachedUsage = usageData;
 
+  // 等 DOM ready
   if (!document.body) {
     setTimeout(() => updateFloatingBar(usageData), 500);
     return;
@@ -184,6 +186,7 @@ function updateFloatingBar(usageData) {
 
   const bar = createFloatingBar();
 
+  // 更新官方用量
   if (cachedUsage?.tiers) {
     const fiveHour = cachedUsage.tiers.find(t => t.type === 'five_hour');
     const sevenDay = cachedUsage.tiers.find(t => t.type === 'seven_day');
@@ -209,6 +212,7 @@ function updateFloatingBar(usageData) {
     }
   }
 
+  // 更新即時費用
   const costEl = bar.querySelector('#nyan-cost');
   if (sessionData.totalCost > 0) {
     const cost = sessionData.totalCost;
@@ -216,8 +220,10 @@ function updateFloatingBar(usageData) {
   }
 }
 
+// ── 初始化：載入已有的官方用量 ──
 chrome.storage.local.get('usageData', (result) => {
   if (result.usageData && !result.usageData.error) {
+    // 等 DOM ready 再注入
     if (document.readyState === 'loading') {
       document.addEventListener('DOMContentLoaded', () => updateFloatingBar(result.usageData));
     } else {

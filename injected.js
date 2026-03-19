@@ -4,20 +4,22 @@
 (function () {
   'use strict';
 
+  // ── Token 估算 ──
   function estimateTokens(text) {
     if (!text || typeof text !== 'string') return 0;
     let tokens = 0;
     for (let i = 0; i < text.length; i++) {
       const code = text.charCodeAt(i);
       if (code > 0x3000 && code < 0x9FFF) {
-        tokens += 0.67;
+        tokens += 0.67; // CJK
       } else {
-        tokens += 0.25;
+        tokens += 0.25; // Latin
       }
     }
     return Math.ceil(tokens);
   }
 
+  // ── 價格表 ──
   const PRICING = {
     'opus':   { input: 5,  output: 25 },
     'sonnet': { input: 3,  output: 15 },
@@ -39,10 +41,12 @@
     return (inputTokens / 1e6) * price.input + (outputTokens / 1e6) * price.output;
   }
 
+  // ── 發送 token 資料回 content script ──
   function emitToken(data) {
     window.dispatchEvent(new CustomEvent('__claude_nyan_token__', { detail: data }));
   }
 
+  // ── Monkey-patch fetch ──
   const originalFetch = window.fetch;
   let lastModel = null;
 
@@ -50,6 +54,7 @@
     const [input, init] = args;
     const url = typeof input === 'string' ? input : input?.url || '';
 
+    // 只攔截對話相關的 API
     const isChat = url.includes('/api/organizations/') &&
                    (url.includes('/chat_conversations/') || url.includes('/completion'));
 
@@ -82,6 +87,7 @@
       const response = await originalFetch.apply(this, args);
       const cloned = response.clone();
 
+      // 非同步處理 response
       processResponse(cloned, inputTokens, model).catch(() => {});
 
       return response;
@@ -121,6 +127,7 @@
               if (event.completion) {
                 outputText += event.completion;
               }
+              // 官方 usage 資訊
               if (event.type === 'message_delta' && event.usage) {
                 const official = event.usage;
                 if (official.output_tokens) {
@@ -160,6 +167,7 @@
       }
     } catch (e) {}
 
+    // 沒有官方 usage → 用估算
     const outputTokens = estimateTokens(outputText);
     if (inputTokens > 0 || outputTokens > 0) {
       emitToken({

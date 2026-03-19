@@ -16,6 +16,7 @@ chrome.runtime.onInstalled.addListener(() => {
     delayInMinutes: 0.1,
     periodInMinutes: REFRESH_INTERVAL_MINUTES
   });
+  // Badge 輪播 alarm（每 4 秒）
   chrome.alarms.create(BADGE_ROTATE_NAME, {
     delayInMinutes: 0.05,
     periodInMinutes: BADGE_ROTATE_SECONDS / 60
@@ -82,6 +83,7 @@ async function fetchUsageData() {
 
     await chrome.storage.local.set({ usageData: data });
 
+    // 同步通知 content script 更新浮動條
     notifyContentScript(data);
 
     console.log('🐱 用量已更新', data);
@@ -96,6 +98,7 @@ async function fetchUsageData() {
   }
 }
 
+// ── 通知 content script ──
 function notifyContentScript(data) {
   chrome.tabs.query({ url: 'https://claude.ai/*' }, (tabs) => {
     tabs.forEach(tab => {
@@ -104,6 +107,7 @@ function notifyContentScript(data) {
   });
 }
 
+// ── 解析用量資料 ──
 function parseUsageData(raw) {
   const result = { tiers: [] };
 
@@ -135,6 +139,7 @@ function parseUsageData(raw) {
   return result;
 }
 
+// ── Badge 輪播 ──
 async function rotateBadge() {
   const result = await chrome.storage.local.get(['usageData', 'tokenData']);
   const data = result.usageData;
@@ -145,6 +150,7 @@ async function rotateBadge() {
     return;
   }
 
+  // 建立輪播項目
   const items = [];
 
   const fiveHour = data.tiers.find(t => t.type === 'five_hour');
@@ -165,6 +171,7 @@ async function rotateBadge() {
     items.push({ text: `$${pct}%`, color: colorForPct(pct) });
   }
 
+  // Token 費用
   if (tokenData?.totalCost > 0) {
     const cost = tokenData.totalCost;
     const costStr = cost < 1 ? cost.toFixed(2) : cost.toFixed(1);

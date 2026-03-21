@@ -1,0 +1,116 @@
+{
+  "extName": {
+    "message": "Claude Usage Nyan"
+  },
+  "extDescription": {
+    "message": "Παρακολουθήστε τη χρήση Claude — χωρίς εκπλήξεις ορίου."
+  },
+  "popupTitle": {
+    "message": "Χρήση Claude"
+  },
+  "officialUsage": {
+    "message": "Επίσημα δεδομένα"
+  },
+  "realtimeTracking": {
+    "message": "Παρακολούθηση σε πραγματικό χρόνο"
+  },
+  "sessionUsage": {
+    "message": "Συνεδρία 5 ωρών"
+  },
+  "weeklyUsage": {
+    "message": "Χρήση 7 ημερών"
+  },
+  "additionalUsage": {
+    "message": "Πρόσθετη χρήση"
+  },
+  "resetsIn": {
+    "message": "Επαναφορά σε $TIME$",
+    "placeholders": {
+      "TIME": {
+        "content": "$1",
+        "example": "2h 15m"
+      }
+    }
+  },
+  "used": {
+    "message": "χρησιμοποιημένο"
+  },
+  "remaining": {
+    "message": "υπόλοιπο"
+  },
+  "of": {
+    "message": "από"
+  },
+  "unlimited": {
+    "message": "Απεριόριστο"
+  },
+  "inputTokens": {
+    "message": "Token εισόδου"
+  },
+  "outputTokens": {
+    "message": "Token εξόδου"
+  },
+  "estimatedCost": {
+    "message": "Εκτιμώμενο κόστος"
+  },
+  "model": {
+    "message": "Μοντέλο"
+  },
+  "lastConversation": {
+    "message": "Τελευταία συνομιλία"
+  },
+  "totalSession": {
+    "message": "Σύνολο συνεδρίας"
+  },
+  "badgeStatusSafe": {
+    "message": "Εντάξει"
+  },
+  "badgeStatusWarning": {
+    "message": "Προσοχή"
+  },
+  "badgeStatusDanger": {
+    "message": "Σχεδόν γεμάτο"
+  },
+  "badgeStatusCritical": {
+    "message": "Στο όριο"
+  },
+  "floatingBarTitle": {
+    "message": "Χρήση Claude"
+  },
+  "floatingBarCollapse": {
+    "message": "Κλικ για σύμπτυξη"
+  },
+  "floatingBarExpand": {
+    "message": "Κλικ για ανάπτυξη"
+  },
+  "settingsTitle": {
+    "message": "Ρυθμίσεις"
+  },
+  "refreshInterval": {
+    "message": "Διάστημα ανανέωσης"
+  },
+  "minutes": {
+    "message": "λεπτά"
+  },
+  "showFloatingBar": {
+    "message": "Εμφάνιση κινούμενης γραμμής"
+  },
+  "showBadge": {
+    "message": "Εμφάνιση σήματος"
+  },
+  "errorNoSession": {
+    "message": "Δεν έχετε συνδεθεί στο claude.ai"
+  },
+  "errorFetchFailed": {
+    "message": "Αποτυχία λήψης δεδομένων"
+  },
+  "errorRetrying": {
+    "message": "Νέα προσπάθεια…"
+  },
+  "hours": {
+    "message": "ω"
+  },
+  "mins": {
+    "message": "λ"
+  }
+}

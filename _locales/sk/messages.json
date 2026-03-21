@@ -1,0 +1,116 @@
+{
+  "extName": {
+    "message": "Claude Usage Nyan"
+  },
+  "extDescription": {
+    "message": "Sledujte využitie Claude — žiadne prekvapenia s limitmi."
+  },
+  "popupTitle": {
+    "message": "Využitie Claude"
+  },
+  "officialUsage": {
+    "message": "Oficiálne údaje"
+  },
+  "realtimeTracking": {
+    "message": "Sledovanie v reálnom čase"
+  },
+  "sessionUsage": {
+    "message": "5-hodinová relácia"
+  },
+  "weeklyUsage": {
+    "message": "7-dňové využitie"
+  },
+  "additionalUsage": {
+    "message": "Dodatočné využitie"
+  },
+  "resetsIn": {
+    "message": "Reset za $TIME$",
+    "placeholders": {
+      "TIME": {
+        "content": "$1",
+        "example": "2h 15m"
+      }
+    }
+  },
+  "used": {
+    "message": "využité"
+  },
+  "remaining": {
+    "message": "zostáva"
+  },
+  "of": {
+    "message": "z"
+  },
+  "unlimited": {
+    "message": "Neobmedzené"
+  },
+  "inputTokens": {
+    "message": "Vstupné tokeny"
+  },
+  "outputTokens": {
+    "message": "Výstupné tokeny"
+  },
+  "estimatedCost": {
+    "message": "Odhadovaná cena"
+  },
+  "model": {
+    "message": "Model"
+  },
+  "lastConversation": {
+    "message": "Posledná konverzácia"
+  },
+  "totalSession": {
+    "message": "Celkom za reláciu"
+  },
+  "badgeStatusSafe": {
+    "message": "V poriadku"
+  },
+  "badgeStatusWarning": {
+    "message": "Pozor"
+  },
+  "badgeStatusDanger": {
+    "message": "Takmer plné"
+  },
+  "badgeStatusCritical": {
+    "message": "Na hranici"
+  },
+  "floatingBarTitle": {
+    "message": "Využitie Claude"
+  },
+  "floatingBarCollapse": {
+    "message": "Kliknutím zbalíte"
+  },
+  "floatingBarExpand": {
+    "message": "Kliknutím rozbalíte"
+  },
+  "settingsTitle": {
+    "message": "Nastavenia"
+  },
+  "refreshInterval": {
+    "message": "Interval aktualizácie"
+  },
+  "minutes": {
+    "message": "minút"
+  },
+  "showFloatingBar": {
+    "message": "Zobraziť plávajúcu lištu"
+  },
+  "showBadge": {
+    "message": "Zobraziť odznak"
+  },
+  "errorNoSession": {
+    "message": "Nie ste prihlásení na claude.ai"
+  },
+  "errorFetchFailed": {
+    "message": "Nepodarilo sa načítať údaje"
+  },
+  "errorRetrying": {
+    "message": "Skúšam znova…"
+  },
+  "hours": {
+    "message": "h"
+  },
+  "mins": {
+    "message": "min"
+  }
+}

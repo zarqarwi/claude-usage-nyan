@@ -1,0 +1,116 @@
+{
+  "extName": {
+    "message": "Claude Usage Nyan"
+  },
+  "extDescription": {
+    "message": "Theo dõi mức sử dụng Claude — không bị bất ngờ bởi giới hạn."
+  },
+  "popupTitle": {
+    "message": "Mức dùng Claude"
+  },
+  "officialUsage": {
+    "message": "Dữ liệu chính thức"
+  },
+  "realtimeTracking": {
+    "message": "Theo dõi thời gian thực"
+  },
+  "sessionUsage": {
+    "message": "Phiên 5 giờ"
+  },
+  "weeklyUsage": {
+    "message": "Sử dụng 7 ngày"
+  },
+  "additionalUsage": {
+    "message": "Sử dụng thêm"
+  },
+  "resetsIn": {
+    "message": "Đặt lại sau $TIME$",
+    "placeholders": {
+      "TIME": {
+        "content": "$1",
+        "example": "2h 15m"
+      }
+    }
+  },
+  "used": {
+    "message": "đã dùng"
+  },
+  "remaining": {
+    "message": "còn lại"
+  },
+  "of": {
+    "message": "/"
+  },
+  "unlimited": {
+    "message": "Không giới hạn"
+  },
+  "inputTokens": {
+    "message": "Token đầu vào"
+  },
+  "outputTokens": {
+    "message": "Token đầu ra"
+  },
+  "estimatedCost": {
+    "message": "Chi phí ước tính"
+  },
+  "model": {
+    "message": "Mô hình"
+  },
+  "lastConversation": {
+    "message": "Cuộc trò chuyện gần nhất"
+  },
+  "totalSession": {
+    "message": "Tổng phiên"
+  },
+  "badgeStatusSafe": {
+    "message": "An toàn"
+  },
+  "badgeStatusWarning": {
+    "message": "Lưu ý"
+  },
+  "badgeStatusDanger": {
+    "message": "Gần đầy"
+  },
+  "badgeStatusCritical": {
+    "message": "Sắp đạt giới hạn"
+  },
+  "floatingBarTitle": {
+    "message": "Mức dùng Claude"
+  },
+  "floatingBarCollapse": {
+    "message": "Nhấp để thu gọn"
+  },
+  "floatingBarExpand": {
+    "message": "Nhấp để mở rộng"
+  },
+  "settingsTitle": {
+    "message": "Cài đặt"
+  },
+  "refreshInterval": {
+    "message": "Tần suất cập nhật"
+  },
+  "minutes": {
+    "message": "phút"
+  },
+  "showFloatingBar": {
+    "message": "Hiện thanh nổi"
+  },
+  "showBadge": {
+    "message": "Hiện huy hiệu"
+  },
+  "errorNoSession": {
+    "message": "Chưa đăng nhập claude.ai"
+  },
+  "errorFetchFailed": {
+    "message": "Không thể tải dữ liệu sử dụng"
+  },
+  "errorRetrying": {
+    "message": "Đang thử lại…"
+  },
+  "hours": {
+    "message": "g"
+  },
+  "mins": {
+    "message": "ph"
+  }
+}

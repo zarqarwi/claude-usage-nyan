@@ -1,0 +1,116 @@
+{
+  "extName": {
+    "message": "Claude Usage Nyan"
+  },
+  "extDescription": {
+    "message": "Śledź zużycie Claude — bez niespodzianek z limitami."
+  },
+  "popupTitle": {
+    "message": "Zużycie Claude"
+  },
+  "officialUsage": {
+    "message": "Oficjalne dane"
+  },
+  "realtimeTracking": {
+    "message": "Śledzenie w czasie rzeczywistym"
+  },
+  "sessionUsage": {
+    "message": "Sesja 5-godzinna"
+  },
+  "weeklyUsage": {
+    "message": "Zużycie 7-dniowe"
+  },
+  "additionalUsage": {
+    "message": "Dodatkowe zużycie"
+  },
+  "resetsIn": {
+    "message": "Reset za $TIME$",
+    "placeholders": {
+      "TIME": {
+        "content": "$1",
+        "example": "2h 15m"
+      }
+    }
+  },
+  "used": {
+    "message": "zużyto"
+  },
+  "remaining": {
+    "message": "pozostało"
+  },
+  "of": {
+    "message": "z"
+  },
+  "unlimited": {
+    "message": "Bez limitu"
+  },
+  "inputTokens": {
+    "message": "Tokeny wejściowe"
+  },
+  "outputTokens": {
+    "message": "Tokeny wyjściowe"
+  },
+  "estimatedCost": {
+    "message": "Szacunkowy koszt"
+  },
+  "model": {
+    "message": "Model"
+  },
+  "lastConversation": {
+    "message": "Ostatnia rozmowa"
+  },
+  "totalSession": {
+    "message": "Suma sesji"
+  },
+  "badgeStatusSafe": {
+    "message": "OK"
+  },
+  "badgeStatusWarning": {
+    "message": "Uwaga"
+  },
+  "badgeStatusDanger": {
+    "message": "Prawie pełne"
+  },
+  "badgeStatusCritical": {
+    "message": "Blisko limitu"
+  },
+  "floatingBarTitle": {
+    "message": "Zużycie Claude"
+  },
+  "floatingBarCollapse": {
+    "message": "Kliknij aby zwinąć"
+  },
+  "floatingBarExpand": {
+    "message": "Kliknij aby rozwinąć"
+  },
+  "settingsTitle": {
+    "message": "Ustawienia"
+  },
+  "refreshInterval": {
+    "message": "Interwał odświeżania"
+  },
+  "minutes": {
+    "message": "minut"
+  },
+  "showFloatingBar": {
+    "message": "Pokaż pasek pływający"
+  },
+  "showBadge": {
+    "message": "Pokaż odznakę"
+  },
+  "errorNoSession": {
+    "message": "Nie zalogowano do claude.ai"
+  },
+  "errorFetchFailed": {
+    "message": "Nie udało się pobrać danych"
+  },
+  "errorRetrying": {
+    "message": "Ponawiam próbę…"
+  },
+  "hours": {
+    "message": "godz"
+  },
+  "mins": {
+    "message": "min"
+  }
+}

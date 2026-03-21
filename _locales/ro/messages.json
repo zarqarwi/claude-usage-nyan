@@ -1,0 +1,116 @@
+{
+  "extName": {
+    "message": "Claude Usage Nyan"
+  },
+  "extDescription": {
+    "message": "Urmărește-ți utilizarea Claude — fără surprize de la limita de rată."
+  },
+  "popupTitle": {
+    "message": "Utilizare Claude"
+  },
+  "officialUsage": {
+    "message": "Date oficiale"
+  },
+  "realtimeTracking": {
+    "message": "Urmărire în timp real"
+  },
+  "sessionUsage": {
+    "message": "Sesiune de 5 ore"
+  },
+  "weeklyUsage": {
+    "message": "Utilizare 7 zile"
+  },
+  "additionalUsage": {
+    "message": "Utilizare suplimentară"
+  },
+  "resetsIn": {
+    "message": "Resetare în $TIME$",
+    "placeholders": {
+      "TIME": {
+        "content": "$1",
+        "example": "2h 15m"
+      }
+    }
+  },
+  "used": {
+    "message": "utilizat"
+  },
+  "remaining": {
+    "message": "rămas"
+  },
+  "of": {
+    "message": "din"
+  },
+  "unlimited": {
+    "message": "Nelimitat"
+  },
+  "inputTokens": {
+    "message": "Tokeni intrare"
+  },
+  "outputTokens": {
+    "message": "Tokeni ieșire"
+  },
+  "estimatedCost": {
+    "message": "Cost estimat"
+  },
+  "model": {
+    "message": "Model"
+  },
+  "lastConversation": {
+    "message": "Ultima conversație"
+  },
+  "totalSession": {
+    "message": "Total sesiune"
+  },
+  "badgeStatusSafe": {
+    "message": "OK"
+  },
+  "badgeStatusWarning": {
+    "message": "Atenție"
+  },
+  "badgeStatusDanger": {
+    "message": "Aproape plin"
+  },
+  "badgeStatusCritical": {
+    "message": "La limită"
+  },
+  "floatingBarTitle": {
+    "message": "Utilizare Claude"
+  },
+  "floatingBarCollapse": {
+    "message": "Click pentru a restrânge"
+  },
+  "floatingBarExpand": {
+    "message": "Click pentru a extinde"
+  },
+  "settingsTitle": {
+    "message": "Setări"
+  },
+  "refreshInterval": {
+    "message": "Interval de actualizare"
+  },
+  "minutes": {
+    "message": "minute"
+  },
+  "showFloatingBar": {
+    "message": "Afișează bara plutitoare"
+  },
+  "showBadge": {
+    "message": "Afișează insigna"
+  },
+  "errorNoSession": {
+    "message": "Nu ești autentificat pe claude.ai"
+  },
+  "errorFetchFailed": {
+    "message": "Nu s-au putut obține datele"
+  },
+  "errorRetrying": {
+    "message": "Se reîncearcă…"
+  },
+  "hours": {
+    "message": "h"
+  },
+  "mins": {
+    "message": "min"
+  }
+}

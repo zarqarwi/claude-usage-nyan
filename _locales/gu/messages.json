@@ -1,0 +1,116 @@
+{
+  "extName": {
+    "message": "Claude Usage Nyan"
+  },
+  "extDescription": {
+    "message": "તમારા Claude વપરાશને ટ્રૅક કરો — રેટ લિમિટથી આશ્ચર્ય ટાળો."
+  },
+  "popupTitle": {
+    "message": "Claude વપરાશ"
+  },
+  "officialUsage": {
+    "message": "સત્તાવાર ડેટા"
+  },
+  "realtimeTracking": {
+    "message": "રીઅલ-ટાઇમ ટ્રૅકિંગ"
+  },
+  "sessionUsage": {
+    "message": "5-કલાક સેશન"
+  },
+  "weeklyUsage": {
+    "message": "7-દિવસ વપરાશ"
+  },
+  "additionalUsage": {
+    "message": "વધારાનો વપરાશ"
+  },
+  "resetsIn": {
+    "message": "$TIME$ માં રીસેટ",
+    "placeholders": {
+      "TIME": {
+        "content": "$1",
+        "example": "2h 15m"
+      }
+    }
+  },
+  "used": {
+    "message": "વપરાયેલ"
+  },
+  "remaining": {
+    "message": "બાકી"
+  },
+  "of": {
+    "message": "/"
+  },
+  "unlimited": {
+    "message": "અમર્યાદિત"
+  },
+  "inputTokens": {
+    "message": "ઇનપુટ ટોકન"
+  },
+  "outputTokens": {
+    "message": "આઉટપુટ ટોકન"
+  },
+  "estimatedCost": {
+    "message": "અંદાજિત ખર્ચ"
+  },
+  "model": {
+    "message": "મોડેલ"
+  },
+  "lastConversation": {
+    "message": "છેલ્લી વાતચીત"
+  },
+  "totalSession": {
+    "message": "સેશન કુલ"
+  },
+  "badgeStatusSafe": {
+    "message": "સુરક્ષિત"
+  },
+  "badgeStatusWarning": {
+    "message": "ચેતવણી"
+  },
+  "badgeStatusDanger": {
+    "message": "લગભગ ભરાઈ ગયું"
+  },
+  "badgeStatusCritical": {
+    "message": "મર્યાદા નજીક"
+  },
+  "floatingBarTitle": {
+    "message": "Claude વપરાશ"
+  },
+  "floatingBarCollapse": {
+    "message": "સંકુચિત કરવા ક્લિક કરો"
+  },
+  "floatingBarExpand": {
+    "message": "વિસ્તૃત કરવા ક્લિક કરો"
+  },
+  "settingsTitle": {
+    "message": "સેટિંગ્સ"
+  },
+  "refreshInterval": {
+    "message": "અપડેટ અંતરાલ"
+  },
+  "minutes": {
+    "message": "મિનિટ"
+  },
+  "showFloatingBar": {
+    "message": "ફ્લોટિંગ બાર બતાવો"
+  },
+  "showBadge": {
+    "message": "બેજ બતાવો"
+  },
+  "errorNoSession": {
+    "message": "claude.ai માં લૉગ ઇન નથી"
+  },
+  "errorFetchFailed": {
+    "message": "વપરાશ ડેટા મેળવી શકાયો નહીં"
+  },
+  "errorRetrying": {
+    "message": "ફરી પ્રયાસ કરી રહ્યા છીએ…"
+  },
+  "hours": {
+    "message": "ક"
+  },
+  "mins": {
+    "message": "મિ"
+  }
+}

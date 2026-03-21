@@ -1,0 +1,116 @@
+{
+  "extName": {
+    "message": "Claude Usage Nyan"
+  },
+  "extDescription": {
+    "message": "ನಿಮ್ಮ Claude ಬಳಕೆಯನ್ನು ಟ್ರ್ಯಾಕ್ ಮಾಡಿ — ರೇಟ್ ಲಿಮಿಟ್‌ನಿಂದ ಆಶ್ಚರ್ಯ ತಪ್ಪಿಸಿ."
+  },
+  "popupTitle": {
+    "message": "Claude ಬಳಕೆ"
+  },
+  "officialUsage": {
+    "message": "ಅಧಿಕೃತ ಡೇಟಾ"
+  },
+  "realtimeTracking": {
+    "message": "ನೈಜ-ಸಮಯ ಟ್ರ್ಯಾಕಿಂಗ್"
+  },
+  "sessionUsage": {
+    "message": "5-ಗಂಟೆ ಅವಧಿ"
+  },
+  "weeklyUsage": {
+    "message": "7-ದಿನ ಬಳಕೆ"
+  },
+  "additionalUsage": {
+    "message": "ಹೆಚ್ಚುವರಿ ಬಳಕೆ"
+  },
+  "resetsIn": {
+    "message": "$TIME$ ನಂತರ ರೀಸೆಟ್",
+    "placeholders": {
+      "TIME": {
+        "content": "$1",
+        "example": "2h 15m"
+      }
+    }
+  },
+  "used": {
+    "message": "ಬಳಸಿದ"
+  },
+  "remaining": {
+    "message": "ಉಳಿದಿದೆ"
+  },
+  "of": {
+    "message": "/"
+  },
+  "unlimited": {
+    "message": "ಅಮಿತ"
+  },
+  "inputTokens": {
+    "message": "ಇನ್‌ಪುಟ್ ಟೋಕನ್"
+  },
+  "outputTokens": {
+    "message": "ಔಟ್‌ಪುಟ್ ಟೋಕನ್"
+  },
+  "estimatedCost": {
+    "message": "ಅಂದಾಜು ವೆಚ್ಚ"
+  },
+  "model": {
+    "message": "ಮಾದರಿ"
+  },
+  "lastConversation": {
+    "message": "ಕೊನೆಯ ಸಂಭಾಷಣೆ"
+  },
+  "totalSession": {
+    "message": "ಅವಧಿ ಒಟ್ಟು"
+  },
+  "badgeStatusSafe": {
+    "message": "ಸುರಕ್ಷಿತ"
+  },
+  "badgeStatusWarning": {
+    "message": "ಎಚ್ಚರಿಕೆ"
+  },
+  "badgeStatusDanger": {
+    "message": "ಬಹುತೇಕ ತುಂಬಿದೆ"
+  },
+  "badgeStatusCritical": {
+    "message": "ಮಿತಿ ಸಮೀಪ"
+  },
+  "floatingBarTitle": {
+    "message": "Claude ಬಳಕೆ"
+  },
+  "floatingBarCollapse": {
+    "message": "ಕುಗ್ಗಿಸಲು ಕ್ಲಿಕ್ ಮಾಡಿ"
+  },
+  "floatingBarExpand": {
+    "message": "ವಿಸ್ತರಿಸಲು ಕ್ಲಿಕ್ ಮಾಡಿ"
+  },
+  "settingsTitle": {
+    "message": "ಸೆಟ್ಟಿಂಗ್‌ಗಳು"
+  },
+  "refreshInterval": {
+    "message": "ನವೀಕರಣ ಮಧ್ಯಂತರ"
+  },
+  "minutes": {
+    "message": "ನಿಮಿಷ"
+  },
+  "showFloatingBar": {
+    "message": "ತೇಲುವ ಪಟ್ಟಿ ತೋರಿಸಿ"
+  },
+  "showBadge": {
+    "message": "ಬ್ಯಾಡ್ಜ್ ತೋರಿಸಿ"
+  },
+  "errorNoSession": {
+    "message": "claude.ai ಗೆ ಲಾಗಿನ್ ಆಗಿಲ್ಲ"
+  },
+  "errorFetchFailed": {
+    "message": "ಬಳಕೆ ಡೇಟಾ ಪಡೆಯಲು ವಿಫಲ"
+  },
+  "errorRetrying": {
+    "message": "ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಲಾಗುತ್ತಿದೆ…"
+  },
+  "hours": {
+    "message": "ಗಂ"
+  },
+  "mins": {
+    "message": "ನಿ"
+  }
+}

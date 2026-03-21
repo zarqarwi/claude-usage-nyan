@@ -1,0 +1,116 @@
+{
+  "extName": {
+    "message": "Claude Usage Nyan"
+  },
+  "extDescription": {
+    "message": "Fuatilia matumizi yako ya Claude — usishtushwe na kikomo."
+  },
+  "popupTitle": {
+    "message": "Matumizi ya Claude"
+  },
+  "officialUsage": {
+    "message": "Data rasmi"
+  },
+  "realtimeTracking": {
+    "message": "Ufuatiliaji wa wakati halisi"
+  },
+  "sessionUsage": {
+    "message": "Kipindi cha saa 5"
+  },
+  "weeklyUsage": {
+    "message": "Matumizi ya siku 7"
+  },
+  "additionalUsage": {
+    "message": "Matumizi ya ziada"
+  },
+  "resetsIn": {
+    "message": "Upya baada ya $TIME$",
+    "placeholders": {
+      "TIME": {
+        "content": "$1",
+        "example": "2h 15m"
+      }
+    }
+  },
+  "used": {
+    "message": "imetumika"
+  },
+  "remaining": {
+    "message": "imebaki"
+  },
+  "of": {
+    "message": "ya"
+  },
+  "unlimited": {
+    "message": "Bila kikomo"
+  },
+  "inputTokens": {
+    "message": "Tokeni za ingizo"
+  },
+  "outputTokens": {
+    "message": "Tokeni za pato"
+  },
+  "estimatedCost": {
+    "message": "Gharama iliyokadiriwa"
+  },
+  "model": {
+    "message": "Modeli"
+  },
+  "lastConversation": {
+    "message": "Mazungumzo ya mwisho"
+  },
+  "totalSession": {
+    "message": "Jumla ya kipindi"
+  },
+  "badgeStatusSafe": {
+    "message": "Salama"
+  },
+  "badgeStatusWarning": {
+    "message": "Tahadhari"
+  },
+  "badgeStatusDanger": {
+    "message": "Karibu kujaa"
+  },
+  "badgeStatusCritical": {
+    "message": "Karibu na kikomo"
+  },
+  "floatingBarTitle": {
+    "message": "Matumizi ya Claude"
+  },
+  "floatingBarCollapse": {
+    "message": "Bofya ili kupunguza"
+  },
+  "floatingBarExpand": {
+    "message": "Bofya ili kupanua"
+  },
+  "settingsTitle": {
+    "message": "Mipangilio"
+  },
+  "refreshInterval": {
+    "message": "Muda wa kusasisha"
+  },
+  "minutes": {
+    "message": "dakika"
+  },
+  "showFloatingBar": {
+    "message": "Onyesha upau unaoelea"
+  },
+  "showBadge": {
+    "message": "Onyesha beji"
+  },
+  "errorNoSession": {
+    "message": "Hujaingia claude.ai"
+  },
+  "errorFetchFailed": {
+    "message": "Imeshindwa kupata data"
+  },
+  "errorRetrying": {
+    "message": "Inajaribu tena…"
+  },
+  "hours": {
+    "message": "s"
+  },
+  "mins": {
+    "message": "dk"
+  }
+}

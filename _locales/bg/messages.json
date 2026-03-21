@@ -1,0 +1,116 @@
+{
+  "extName": {
+    "message": "Claude Usage Nyan"
+  },
+  "extDescription": {
+    "message": "Проследявайте използването на Claude — без изненади от ограничения."
+  },
+  "popupTitle": {
+    "message": "Използване на Claude"
+  },
+  "officialUsage": {
+    "message": "Официални данни"
+  },
+  "realtimeTracking": {
+    "message": "Проследяване в реално време"
+  },
+  "sessionUsage": {
+    "message": "5-часова сесия"
+  },
+  "weeklyUsage": {
+    "message": "7-дневно използване"
+  },
+  "additionalUsage": {
+    "message": "Допълнително използване"
+  },
+  "resetsIn": {
+    "message": "Нулиране след $TIME$",
+    "placeholders": {
+      "TIME": {
+        "content": "$1",
+        "example": "2h 15m"
+      }
+    }
+  },
+  "used": {
+    "message": "използвано"
+  },
+  "remaining": {
+    "message": "остатък"
+  },
+  "of": {
+    "message": "от"
+  },
+  "unlimited": {
+    "message": "Неограничено"
+  },
+  "inputTokens": {
+    "message": "Входни токени"
+  },
+  "outputTokens": {
+    "message": "Изходни токени"
+  },
+  "estimatedCost": {
+    "message": "Приблизителна цена"
+  },
+  "model": {
+    "message": "Модел"
+  },
+  "lastConversation": {
+    "message": "Последен разговор"
+  },
+  "totalSession": {
+    "message": "Общо за сесията"
+  },
+  "badgeStatusSafe": {
+    "message": "Добре"
+  },
+  "badgeStatusWarning": {
+    "message": "Внимание"
+  },
+  "badgeStatusDanger": {
+    "message": "Почти пълно"
+  },
+  "badgeStatusCritical": {
+    "message": "Близо до лимита"
+  },
+  "floatingBarTitle": {
+    "message": "Използване на Claude"
+  },
+  "floatingBarCollapse": {
+    "message": "Щракнете за свиване"
+  },
+  "floatingBarExpand": {
+    "message": "Щракнете за разгъване"
+  },
+  "settingsTitle": {
+    "message": "Настройки"
+  },
+  "refreshInterval": {
+    "message": "Интервал на обновяване"
+  },
+  "minutes": {
+    "message": "минути"
+  },
+  "showFloatingBar": {
+    "message": "Показване на плаващата лента"
+  },
+  "showBadge": {
+    "message": "Показване на значка"
+  },
+  "errorNoSession": {
+    "message": "Не сте влезли в claude.ai"
+  },
+  "errorFetchFailed": {
+    "message": "Грешка при зареждане на данните"
+  },
+  "errorRetrying": {
+    "message": "Повторен опит…"
+  },
+  "hours": {
+    "message": "ч"
+  },
+  "mins": {
+    "message": "мин"
+  }
+}

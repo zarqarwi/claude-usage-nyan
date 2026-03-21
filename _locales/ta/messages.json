@@ -1,0 +1,116 @@
+{
+  "extName": {
+    "message": "Claude Usage Nyan"
+  },
+  "extDescription": {
+    "message": "உங்கள் Claude பயன்பாட்டைக் கண்காணிக்கவும் — வரம்பு ஆச்சரியம் தவிர்க்கவும்."
+  },
+  "popupTitle": {
+    "message": "Claude பயன்பாடு"
+  },
+  "officialUsage": {
+    "message": "அதிகாரப்பூர்வ தரவு"
+  },
+  "realtimeTracking": {
+    "message": "நிகழ்நேர கண்காணிப்பு"
+  },
+  "sessionUsage": {
+    "message": "5-மணி அமர்வு"
+  },
+  "weeklyUsage": {
+    "message": "7-நாள் பயன்பாடு"
+  },
+  "additionalUsage": {
+    "message": "கூடுதல் பயன்பாடு"
+  },
+  "resetsIn": {
+    "message": "$TIME$ இல் மீட்டமை",
+    "placeholders": {
+      "TIME": {
+        "content": "$1",
+        "example": "2h 15m"
+      }
+    }
+  },
+  "used": {
+    "message": "பயன்படுத்தியது"
+  },
+  "remaining": {
+    "message": "மீதம்"
+  },
+  "of": {
+    "message": "/"
+  },
+  "unlimited": {
+    "message": "வரம்பற்ற"
+  },
+  "inputTokens": {
+    "message": "உள்ளீட்டு டோக்கன்"
+  },
+  "outputTokens": {
+    "message": "வெளியீட்டு டோக்கன்"
+  },
+  "estimatedCost": {
+    "message": "மதிப்பிடப்பட்ட செலவு"
+  },
+  "model": {
+    "message": "மாதிரி"
+  },
+  "lastConversation": {
+    "message": "கடைசி உரையாடல்"
+  },
+  "totalSession": {
+    "message": "அமர்வு மொத்தம்"
+  },
+  "badgeStatusSafe": {
+    "message": "பாதுகாப்பு"
+  },
+  "badgeStatusWarning": {
+    "message": "எச்சரிக்கை"
+  },
+  "badgeStatusDanger": {
+    "message": "கிட்டத்தட்ட நிரம்பியது"
+  },
+  "badgeStatusCritical": {
+    "message": "வரம்பு அருகில்"
+  },
+  "floatingBarTitle": {
+    "message": "Claude பயன்பாடு"
+  },
+  "floatingBarCollapse": {
+    "message": "சுருக்க கிளிக் செய்யவும்"
+  },
+  "floatingBarExpand": {
+    "message": "விரிவாக்க கிளிக் செய்யவும்"
+  },
+  "settingsTitle": {
+    "message": "அமைப்புகள்"
+  },
+  "refreshInterval": {
+    "message": "புதுப்பிப்பு இடைவெளி"
+  },
+  "minutes": {
+    "message": "நிமிடங்கள்"
+  },
+  "showFloatingBar": {
+    "message": "மிதக்கும் பட்டி காட்டு"
+  },
+  "showBadge": {
+    "message": "பேட்ஜ் காட்டு"
+  },
+  "errorNoSession": {
+    "message": "claude.ai இல் உள்நுழையவில்லை"
+  },
+  "errorFetchFailed": {
+    "message": "பயன்பாட்டுத் தரவைப் பெற இயலவில்லை"
+  },
+  "errorRetrying": {
+    "message": "மீண்டும் முயற்சிக்கிறது…"
+  },
+  "hours": {
+    "message": "ம"
+  },
+  "mins": {
+    "message": "நி"
+  }
+}

@@ -1,41 +1,149 @@
 {
-  "extName": { "message": "Claude 使用量にゃん — Usage Tracker" },
-  "extDescription": { "message": "かわいい方法でClaudeの使用量を追跡 🐱 リアルタイムトークン推定 + 公式使用量" },
-  "appTitle": { "message": "Claude 使用量にゃん" },
+  "extName": {
+    "message": "Claude Usage Nyan"
+  },
+  "extDescription": {
+    "message": "Claudeの使用量を追跡し、レート制限を未然に防ぎます。"
+  },
+
+  "popupTitle": {
+    "message": "Claude 使用量"
+  },
+  "officialUsage": {
+    "message": "公式データ"
+  },
+  "realtimeTracking": {
+    "message": "リアルタイム追跡"
+  },
+
+  "sessionUsage": {
+    "message": "5時間セッション"
+  },
+  "weeklyUsage": {
+    "message": "7日間使用量"
+  },
+  "additionalUsage": {
+    "message": "追加使用量"
+  },
+  "resetsIn": {
+    "message": "リセットまで $TIME$",
+    "placeholders": {
+      "TIME": { "content": "$1", "example": "2h 15m" }
+    }
+  },
+  "used": {
+    "message": "使用済み"
+  },
+  "remaining": {
+    "message": "残り"
+  },
+  "of": {
+    "message": "/"
+  },
+  "unlimited": {
+    "message": "無制限"
+  },
+
+  "inputTokens": {
+    "message": "入力トークン"
+  },
+  "outputTokens": {
+    "message": "出力トークン"
+  },
+  "estimatedCost": {
+    "message": "推定コスト"
+  },
+  "model": {
+    "message": "モデル"
+  },
+  "lastConversation": {
+    "message": "前回の会話"
+  },
+  "totalSession": {
+    "message": "セッション合計"
+  },
+
+  "badgeStatusSafe": {
+    "message": "安全"
+  },
+  "badgeStatusWarning": {
+    "message": "注意"
+  },
+  "badgeStatusDanger": {
+    "message": "残りわずか"
+  },
+  "badgeStatusCritical": {
+    "message": "上限間近"
+  },
+
+  "floatingBarTitle": {
+    "message": "Claude 使用量"
+  },
+  "floatingBarCollapse": {
+    "message": "クリックで折りたたむ"
+  },
+  "floatingBarExpand": {
+    "message": "クリックで展開"
+  },
+
+  "settingsTitle": {
+    "message": "設定"
+  },
+  "refreshInterval": {
+    "message": "更新間隔"
+  },
+  "minutes": {
+    "message": "分"
+  },
+  "showFloatingBar": {
+    "message": "フローティングバーを表示"
+  },
+  "showBadge": {
+    "message": "バッジを表示"
+  },
+
+  "errorNoSession": {
+    "message": "claude.aiにログインしていません"
+  },
+  "errorFetchFailed": {
+    "message": "使用量データの取得に失敗しました"
+  },
+  "errorRetrying": {
+    "message": "再試行中…"
+  },
+
+  "hours": {
+    "message": "時間"
+  },
+  "mins": {
+    "message": "分"
+  },
+
+  "appTitle": { "message": "Claude Usage Nyan" },
   "loading": { "message": "読み込み中..." },
-  "refreshTitle": { "message": "更新" },
   "connecting": { "message": "接続中..." },
   "connected": { "message": "接続済み" },
   "connectedRaw": { "message": "接続済み（生データ）" },
-  "notLoggedIn": { "message": "未ログイン" },
   "connError": { "message": "接続エラー" },
-  "officialUsage": { "message": "📡 公式使用量（5分ごとに更新）" },
-  "tokenTracking": { "message": "⚡ リアルタイムトークン追跡" },
-  "inputTokens": { "message": "入力トークン" },
-  "outputTokens": { "message": "出力トークン" },
-  "estimatedCost": { "message": "推定コスト" },
-  "conversations": { "message": "$1件の会話" },
+  "bgConnFailed": { "message": "バックグラウンドに接続できません" },
+  "refreshTitle": { "message": "更新" },
+  "refreshing": { "message": "更新中..." },
+  "refreshFailed": { "message": "更新に失敗しました" },
+  "notLoggedIn": { "message": "未ログイン" },
+  "conversations": { "message": "件の会話" },
   "estimate": { "message": "推定値" },
-  "hasOfficial": { "message": "公式データ含む" },
-  "resetCount": { "message": "🗑️ カウントリセット" },
-  "resetCountTitle": { "message": "トークンカウントをリセット" },
-  "emptyMsg": { "message": "使用量データが見つかりませんにゃん..." },
-  "emptyHint": { "message": "先にclaude.aiにログインしてください" },
+  "hasOfficial": { "message": "公式データ" },
+  "resetCount": { "message": "カウンターをリセット" },
+  "resetCountTitle": { "message": "トークンカウンターをリセット" },
+  "emptyMsg": { "message": "使用量データがありません..." },
+  "emptyHint": { "message": "claude.aiにログインしてください" },
   "errorHint": { "message": "更新してみてください" },
   "notUpdated": { "message": "未更新" },
   "autoRefresh": { "message": "5分ごとに自動更新" },
   "updatedAgo": { "message": "$1前に更新" },
   "seconds": { "message": "$1秒" },
-  "minutes": { "message": "$1分" },
-  "hours": { "message": "$1時間" },
-  "resetIn": { "message": "$1後にリセット" },
   "alreadyReset": { "message": "リセット済み" },
-  "refreshing": { "message": "更新中にゃん..." },
-  "refreshFailed": { "message": "更新失敗" },
-  "bgConnFailed": { "message": "バックグラウンドサービスに接続できません" },
-  "rawDataLabel": { "message": "🔍 生レスポンスデータ" },
-  "rawDataHint": { "message": "APIフォーマットの解析調整が必要かもしれません 🐱" },
-  "tierFiveHour": { "message": "⏱️ 5時間セッション" },
-  "tierSevenDay": { "message": "📅 7日間使用量" },
-  "tierExtra": { "message": "💳 追加使用量" }
+  "resetIn": { "message": "$1後にリセット" },
+  "rawDataLabel": { "message": "生データ" },
+  "rawDataHint": { "message": "APIフォーマットが変更された可能性があります" }
 }

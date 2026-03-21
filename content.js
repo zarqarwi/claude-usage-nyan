@@ -78,11 +78,11 @@ function createFloatingBar() {
   bar.innerHTML = `
     <div id="nyan-bar-inner">
       <span id="nyan-bar-cat">🐱</span>
-      <span class="nyan-pill" id="nyan-5h" title="${ct('tierFiveHour')}">⏱ —</span>
-      <span class="nyan-pill" id="nyan-7d" title="${ct('tierSevenDay')}">📅 —</span>
-      <span class="nyan-pill" id="nyan-extra" title="${ct('tierExtra')}">💳 —</span>
+      <span class="nyan-pill" id="nyan-5h" title="${ct('sessionUsage')}">⏱ —</span>
+      <span class="nyan-pill" id="nyan-7d" title="${ct('weeklyUsage')}">📅 —</span>
+      <span class="nyan-pill" id="nyan-extra" title="${ct('additionalUsage')}">💳 —</span>
       <span class="nyan-divider">│</span>
-      <span class="nyan-pill nyan-token" id="nyan-cost" title="${ct('tokenTracking')}">⚡ $0</span>
+      <span class="nyan-pill nyan-token" id="nyan-cost" title="${ct('realtimeTracking')}">⚡ $0</span>
     </div>
   `;
 

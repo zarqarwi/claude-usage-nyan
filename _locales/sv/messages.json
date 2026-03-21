@@ -1,0 +1,116 @@
+{
+  "extName": {
+    "message": "Claude Usage Nyan"
+  },
+  "extDescription": {
+    "message": "Spåra din Claude-användning — inga överraskningar med hastighetsgränsen."
+  },
+  "popupTitle": {
+    "message": "Claude-användning"
+  },
+  "officialUsage": {
+    "message": "Officiella data"
+  },
+  "realtimeTracking": {
+    "message": "Realtidsspårning"
+  },
+  "sessionUsage": {
+    "message": "5-timmarssession"
+  },
+  "weeklyUsage": {
+    "message": "7-dagarsanvändning"
+  },
+  "additionalUsage": {
+    "message": "Extra användning"
+  },
+  "resetsIn": {
+    "message": "Återställs om $TIME$",
+    "placeholders": {
+      "TIME": {
+        "content": "$1",
+        "example": "2h 15m"
+      }
+    }
+  },
+  "used": {
+    "message": "använt"
+  },
+  "remaining": {
+    "message": "kvar"
+  },
+  "of": {
+    "message": "av"
+  },
+  "unlimited": {
+    "message": "Obegränsad"
+  },
+  "inputTokens": {
+    "message": "Indata-tokens"
+  },
+  "outputTokens": {
+    "message": "Utdata-tokens"
+  },
+  "estimatedCost": {
+    "message": "Beräknad kostnad"
+  },
+  "model": {
+    "message": "Modell"
+  },
+  "lastConversation": {
+    "message": "Senaste samtal"
+  },
+  "totalSession": {
+    "message": "Sessionstotal"
+  },
+  "badgeStatusSafe": {
+    "message": "OK"
+  },
+  "badgeStatusWarning": {
+    "message": "Observera"
+  },
+  "badgeStatusDanger": {
+    "message": "Nästan fullt"
+  },
+  "badgeStatusCritical": {
+    "message": "Nära gränsen"
+  },
+  "floatingBarTitle": {
+    "message": "Claude-användning"
+  },
+  "floatingBarCollapse": {
+    "message": "Klicka för att dölja"
+  },
+  "floatingBarExpand": {
+    "message": "Klicka för att visa"
+  },
+  "settingsTitle": {
+    "message": "Inställningar"
+  },
+  "refreshInterval": {
+    "message": "Uppdateringsintervall"
+  },
+  "minutes": {
+    "message": "minuter"
+  },
+  "showFloatingBar": {
+    "message": "Visa flytande fält"
+  },
+  "showBadge": {
+    "message": "Visa märke"
+  },
+  "errorNoSession": {
+    "message": "Inte inloggad på claude.ai"
+  },
+  "errorFetchFailed": {
+    "message": "Kunde inte hämta användningsdata"
+  },
+  "errorRetrying": {
+    "message": "Försöker igen…"
+  },
+  "hours": {
+    "message": "h"
+  },
+  "mins": {
+    "message": "min"
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "extName": {
+    "message": "Claude Usage Nyan"
+  },
+  "extDescription": {
+    "message": "የ Claude አጠቃቀምዎን ይከታተሉ — በድንገት የፍጥነት ገደብ ላይ አይድረሱ።"
+  },
+  "popupTitle": {
+    "message": "Claude አጠቃቀም"
+  },
+  "officialUsage": {
+    "message": "ኦፊሴላዊ አጠቃቀም"
+  },
+  "realtimeTracking": {
+    "message": "የቅጽበት ክትትል"
+  },
+  "sessionUsage": {
+    "message": "የ5 ሰዓት ክፍለ ጊዜ"
+  },
+  "weeklyUsage": {
+    "message": "የ7 ቀን አጠቃቀም"
+  },
+  "additionalUsage": {
+    "message": "ተጨማሪ አጠቃቀም"
+  },
+  "resetsIn": {
+    "message": "በ$TIME$ ውስጥ ዳግም ያስጀምራል",
+    "placeholders": {
+      "TIME": {
+        "content": "$1",
+        "example": "2h 15m"
+      }
+    }
+  },
+  "used": {
+    "message": "ጥቅም ላይ የዋለ"
+  },
+  "remaining": {
+    "message": "ቀሪ"
+  },
+  "of": {
+    "message": "ከ"
+  },
+  "unlimited": {
+    "message": "ያልተገደበ"
+  },
+  "inputTokens": {
+    "message": "ግቤት ቶከኖች"
+  },
+  "outputTokens": {
+    "message": "ውጤት ቶከኖች"
+  },
+  "estimatedCost": {
+    "message": "የተገመተ ወጪ"
+  },
+  "model": {
+    "message": "ሞዴል"
+  },
+  "lastConversation": {
+    "message": "የመጨረሻ ውይይት"
+  },
+  "totalSession": {
+    "message": "የክፍለ ጊዜ ድምር"
+  },
+  "badgeStatusSafe": {
+    "message": "ደህና"
+  },
+  "badgeStatusWarning": {
+    "message": "ጥንቃቄ"
+  },
+  "badgeStatusDanger": {
+    "message": "እየተሞላ ነው"
+  },
+  "badgeStatusCritical": {
+    "message": "ሊሞላ ነው"
+  },
+  "floatingBarTitle": {
+    "message": "Claude አጠቃቀም"
+  },
+  "floatingBarCollapse": {
+    "message": "ለመሰብሰብ ጠቅ ያድርጉ"
+  },
+  "floatingBarExpand": {
+    "message": "ለማስፋት ጠቅ ያድርጉ"
+  },
+  "settingsTitle": {
+    "message": "ቅንብሮች"
+  },
+  "refreshInterval": {
+    "message": "የማዘመን ክፍተት"
+  },
+  "minutes": {
+    "message": "ደቂቃዎች"
+  },
+  "showFloatingBar": {
+    "message": "ተንሳፋፊ አሞሌ አሳይ"
+  },
+  "showBadge": {
+    "message": "ባጅ አሳይ"
+  },
+  "errorNoSession": {
+    "message": "ወደ claude.ai አልገቡም"
+  },
+  "errorFetchFailed": {
+    "message": "የአጠቃቀም ውሂብ ማግኘት አልተቻለም"
+  },
+  "errorRetrying": {
+    "message": "እንደገና በመሞከር ላይ…"
+  },
+  "hours": {
+    "message": "ሰ"
+  },
+  "mins": {
+    "message": "ደ"
+  }
+}

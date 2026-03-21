@@ -1,0 +1,116 @@
+{
+  "extName": {
+    "message": "Claude Usage Nyan"
+  },
+  "extDescription": {
+    "message": "Sledite svojo uporabo Claude — brez presenečenj z omejitvami."
+  },
+  "popupTitle": {
+    "message": "Uporaba Claude"
+  },
+  "officialUsage": {
+    "message": "Uradni podatki"
+  },
+  "realtimeTracking": {
+    "message": "Spremljanje v realnem času"
+  },
+  "sessionUsage": {
+    "message": "5-urna seja"
+  },
+  "weeklyUsage": {
+    "message": "7-dnevna uporaba"
+  },
+  "additionalUsage": {
+    "message": "Dodatna uporaba"
+  },
+  "resetsIn": {
+    "message": "Ponastavitev čez $TIME$",
+    "placeholders": {
+      "TIME": {
+        "content": "$1",
+        "example": "2h 15m"
+      }
+    }
+  },
+  "used": {
+    "message": "porabljeno"
+  },
+  "remaining": {
+    "message": "preostane"
+  },
+  "of": {
+    "message": "od"
+  },
+  "unlimited": {
+    "message": "Neomejeno"
+  },
+  "inputTokens": {
+    "message": "Vhodni žetoni"
+  },
+  "outputTokens": {
+    "message": "Izhodni žetoni"
+  },
+  "estimatedCost": {
+    "message": "Ocenjen strošek"
+  },
+  "model": {
+    "message": "Model"
+  },
+  "lastConversation": {
+    "message": "Zadnji pogovor"
+  },
+  "totalSession": {
+    "message": "Skupaj za sejo"
+  },
+  "badgeStatusSafe": {
+    "message": "V redu"
+  },
+  "badgeStatusWarning": {
+    "message": "Pozor"
+  },
+  "badgeStatusDanger": {
+    "message": "Skoraj polno"
+  },
+  "badgeStatusCritical": {
+    "message": "Blizu meje"
+  },
+  "floatingBarTitle": {
+    "message": "Uporaba Claude"
+  },
+  "floatingBarCollapse": {
+    "message": "Kliknite za strnitev"
+  },
+  "floatingBarExpand": {
+    "message": "Kliknite za razširitev"
+  },
+  "settingsTitle": {
+    "message": "Nastavitve"
+  },
+  "refreshInterval": {
+    "message": "Interval osveževanja"
+  },
+  "minutes": {
+    "message": "minut"
+  },
+  "showFloatingBar": {
+    "message": "Prikaži lebdečo vrstico"
+  },
+  "showBadge": {
+    "message": "Prikaži značko"
+  },
+  "errorNoSession": {
+    "message": "Niste prijavljeni na claude.ai"
+  },
+  "errorFetchFailed": {
+    "message": "Ni bilo mogoče pridobiti podatkov"
+  },
+  "errorRetrying": {
+    "message": "Poskušam znova…"
+  },
+  "hours": {
+    "message": "ur"
+  },
+  "mins": {
+    "message": "min"
+  }
+}

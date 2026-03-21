@@ -1,0 +1,116 @@
+{
+  "extName": {
+    "message": "Claude Usage Nyan"
+  },
+  "extDescription": {
+    "message": "Subaybayan ang paggamit ng Claude — huwag magulat sa rate limit."
+  },
+  "popupTitle": {
+    "message": "Paggamit ng Claude"
+  },
+  "officialUsage": {
+    "message": "Opisyal na datos"
+  },
+  "realtimeTracking": {
+    "message": "Real-time na pagsubaybay"
+  },
+  "sessionUsage": {
+    "message": "5-oras na sesyon"
+  },
+  "weeklyUsage": {
+    "message": "7-araw na paggamit"
+  },
+  "additionalUsage": {
+    "message": "Karagdagang paggamit"
+  },
+  "resetsIn": {
+    "message": "Magre-reset sa $TIME$",
+    "placeholders": {
+      "TIME": {
+        "content": "$1",
+        "example": "2h 15m"
+      }
+    }
+  },
+  "used": {
+    "message": "nagamit"
+  },
+  "remaining": {
+    "message": "natitira"
+  },
+  "of": {
+    "message": "sa"
+  },
+  "unlimited": {
+    "message": "Walang limitasyon"
+  },
+  "inputTokens": {
+    "message": "Input token"
+  },
+  "outputTokens": {
+    "message": "Output token"
+  },
+  "estimatedCost": {
+    "message": "Tinatayang gastos"
+  },
+  "model": {
+    "message": "Modelo"
+  },
+  "lastConversation": {
+    "message": "Huling usapan"
+  },
+  "totalSession": {
+    "message": "Kabuuan ng sesyon"
+  },
+  "badgeStatusSafe": {
+    "message": "Ligtas"
+  },
+  "badgeStatusWarning": {
+    "message": "Mag-ingat"
+  },
+  "badgeStatusDanger": {
+    "message": "Halos puno"
+  },
+  "badgeStatusCritical": {
+    "message": "Malapit na sa limit"
+  },
+  "floatingBarTitle": {
+    "message": "Paggamit ng Claude"
+  },
+  "floatingBarCollapse": {
+    "message": "I-click para i-collapse"
+  },
+  "floatingBarExpand": {
+    "message": "I-click para palawakin"
+  },
+  "settingsTitle": {
+    "message": "Mga setting"
+  },
+  "refreshInterval": {
+    "message": "Pagitan ng pag-update"
+  },
+  "minutes": {
+    "message": "minuto"
+  },
+  "showFloatingBar": {
+    "message": "Ipakita ang floating bar"
+  },
+  "showBadge": {
+    "message": "Ipakita ang badge"
+  },
+  "errorNoSession": {
+    "message": "Hindi naka-login sa claude.ai"
+  },
+  "errorFetchFailed": {
+    "message": "Hindi nakuha ang datos ng paggamit"
+  },
+  "errorRetrying": {
+    "message": "Sinusubukan ulit…"
+  },
+  "hours": {
+    "message": "o"
+  },
+  "mins": {
+    "message": "min"
+  }
+}

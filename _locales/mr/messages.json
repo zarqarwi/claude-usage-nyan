@@ -1,0 +1,116 @@
+{
+  "extName": {
+    "message": "Claude Usage Nyan"
+  },
+  "extDescription": {
+    "message": "तुमचा Claude वापर ट्रॅक करा — रेट लिमिटने आश्चर्यचकित होऊ नका."
+  },
+  "popupTitle": {
+    "message": "Claude वापर"
+  },
+  "officialUsage": {
+    "message": "अधिकृत डेटा"
+  },
+  "realtimeTracking": {
+    "message": "रिअल-टाइम ट्रॅकिंग"
+  },
+  "sessionUsage": {
+    "message": "5-तास सत्र"
+  },
+  "weeklyUsage": {
+    "message": "7-दिवस वापर"
+  },
+  "additionalUsage": {
+    "message": "अतिरिक्त वापर"
+  },
+  "resetsIn": {
+    "message": "$TIME$ मध्ये रीसेट",
+    "placeholders": {
+      "TIME": {
+        "content": "$1",
+        "example": "2h 15m"
+      }
+    }
+  },
+  "used": {
+    "message": "वापरलेले"
+  },
+  "remaining": {
+    "message": "उरलेले"
+  },
+  "of": {
+    "message": "/"
+  },
+  "unlimited": {
+    "message": "अमर्याद"
+  },
+  "inputTokens": {
+    "message": "इनपुट टोकन"
+  },
+  "outputTokens": {
+    "message": "आउटपुट टोकन"
+  },
+  "estimatedCost": {
+    "message": "अंदाजे खर्च"
+  },
+  "model": {
+    "message": "मॉडेल"
+  },
+  "lastConversation": {
+    "message": "शेवटचे संभाषण"
+  },
+  "totalSession": {
+    "message": "सत्र एकूण"
+  },
+  "badgeStatusSafe": {
+    "message": "सुरक्षित"
+  },
+  "badgeStatusWarning": {
+    "message": "सावधान"
+  },
+  "badgeStatusDanger": {
+    "message": "जवळपास भरले"
+  },
+  "badgeStatusCritical": {
+    "message": "मर्यादेजवळ"
+  },
+  "floatingBarTitle": {
+    "message": "Claude वापर"
+  },
+  "floatingBarCollapse": {
+    "message": "लहान करण्यासाठी क्लिक करा"
+  },
+  "floatingBarExpand": {
+    "message": "मोठे करण्यासाठी क्लिक करा"
+  },
+  "settingsTitle": {
+    "message": "सेटिंग्ज"
+  },
+  "refreshInterval": {
+    "message": "अपडेट अंतराल"
+  },
+  "minutes": {
+    "message": "मिनिटे"
+  },
+  "showFloatingBar": {
+    "message": "फ्लोटिंग बार दाखवा"
+  },
+  "showBadge": {
+    "message": "बॅज दाखवा"
+  },
+  "errorNoSession": {
+    "message": "claude.ai मध्ये लॉगिन नाही"
+  },
+  "errorFetchFailed": {
+    "message": "वापर डेटा मिळवता आला नाही"
+  },
+  "errorRetrying": {
+    "message": "पुन्हा प्रयत्न करत आहे…"
+  },
+  "hours": {
+    "message": "ता"
+  },
+  "mins": {
+    "message": "मि"
+  }
+}

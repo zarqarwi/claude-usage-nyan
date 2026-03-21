@@ -1,0 +1,116 @@
+{
+  "extName": {
+    "message": "Claude Usage Nyan"
+  },
+  "extDescription": {
+    "message": "Fes seguiment del teu ús de Claude — sense sorpreses de límit."
+  },
+  "popupTitle": {
+    "message": "Ús de Claude"
+  },
+  "officialUsage": {
+    "message": "Dades oficials"
+  },
+  "realtimeTracking": {
+    "message": "Seguiment en temps real"
+  },
+  "sessionUsage": {
+    "message": "Sessió de 5 hores"
+  },
+  "weeklyUsage": {
+    "message": "Ús de 7 dies"
+  },
+  "additionalUsage": {
+    "message": "Ús addicional"
+  },
+  "resetsIn": {
+    "message": "Reinici en $TIME$",
+    "placeholders": {
+      "TIME": {
+        "content": "$1",
+        "example": "2h 15m"
+      }
+    }
+  },
+  "used": {
+    "message": "usat"
+  },
+  "remaining": {
+    "message": "restant"
+  },
+  "of": {
+    "message": "de"
+  },
+  "unlimited": {
+    "message": "Il·limitat"
+  },
+  "inputTokens": {
+    "message": "Tokens d'entrada"
+  },
+  "outputTokens": {
+    "message": "Tokens de sortida"
+  },
+  "estimatedCost": {
+    "message": "Cost estimat"
+  },
+  "model": {
+    "message": "Model"
+  },
+  "lastConversation": {
+    "message": "Última conversa"
+  },
+  "totalSession": {
+    "message": "Total de sessió"
+  },
+  "badgeStatusSafe": {
+    "message": "Correcte"
+  },
+  "badgeStatusWarning": {
+    "message": "Atenció"
+  },
+  "badgeStatusDanger": {
+    "message": "Gairebé ple"
+  },
+  "badgeStatusCritical": {
+    "message": "Quasi al límit"
+  },
+  "floatingBarTitle": {
+    "message": "Ús de Claude"
+  },
+  "floatingBarCollapse": {
+    "message": "Fes clic per replegar"
+  },
+  "floatingBarExpand": {
+    "message": "Fes clic per expandir"
+  },
+  "settingsTitle": {
+    "message": "Configuració"
+  },
+  "refreshInterval": {
+    "message": "Interval d'actualització"
+  },
+  "minutes": {
+    "message": "minuts"
+  },
+  "showFloatingBar": {
+    "message": "Mostra la barra flotant"
+  },
+  "showBadge": {
+    "message": "Mostra la insígnia"
+  },
+  "errorNoSession": {
+    "message": "No has iniciat sessió a claude.ai"
+  },
+  "errorFetchFailed": {
+    "message": "No s'han pogut obtenir les dades"
+  },
+  "errorRetrying": {
+    "message": "Reintentant…"
+  },
+  "hours": {
+    "message": "h"
+  },
+  "mins": {
+    "message": "min"
+  }
+}

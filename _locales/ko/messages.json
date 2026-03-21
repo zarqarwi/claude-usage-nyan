@@ -1,0 +1,121 @@
+{
+  "extName": {
+    "message": "Claude Usage Nyan"
+  },
+  "extDescription": {
+    "message": "Claude 사용량을 추적하여 예기치 않은 속도 제한을 방지합니다."
+  },
+
+  "popupTitle": {
+    "message": "Claude 사용량"
+  },
+  "officialUsage": {
+    "message": "공식 사용량"
+  },
+  "realtimeTracking": {
+    "message": "실시간 추적"
+  },
+
+  "sessionUsage": {
+    "message": "5시간 세션"
+  },
+  "weeklyUsage": {
+    "message": "7일 사용량"
+  },
+  "additionalUsage": {
+    "message": "추가 사용량"
+  },
+  "resetsIn": {
+    "message": "$TIME$ 후 초기화",
+    "placeholders": {
+      "TIME": { "content": "$1", "example": "2h 15m" }
+    }
+  },
+  "used": {
+    "message": "사용됨"
+  },
+  "remaining": {
+    "message": "남음"
+  },
+  "of": {
+    "message": "/"
+  },
+  "unlimited": {
+    "message": "무제한"
+  },
+
+  "inputTokens": {
+    "message": "입력 토큰"
+  },
+  "outputTokens": {
+    "message": "출력 토큰"
+  },
+  "estimatedCost": {
+    "message": "예상 비용"
+  },
+  "model": {
+    "message": "모델"
+  },
+  "lastConversation": {
+    "message": "최근 대화"
+  },
+  "totalSession": {
+    "message": "세션 합계"
+  },
+
+  "badgeStatusSafe": {
+    "message": "안전"
+  },
+  "badgeStatusWarning": {
+    "message": "주의"
+  },
+  "badgeStatusDanger": {
+    "message": "거의 다 참"
+  },
+  "badgeStatusCritical": {
+    "message": "한계 임박"
+  },
+
+  "floatingBarTitle": {
+    "message": "Claude 사용량"
+  },
+  "floatingBarCollapse": {
+    "message": "클릭하여 접기"
+  },
+  "floatingBarExpand": {
+    "message": "클릭하여 펼치기"
+  },
+
+  "settingsTitle": {
+    "message": "설정"
+  },
+  "refreshInterval": {
+    "message": "갱신 주기"
+  },
+  "minutes": {
+    "message": "분"
+  },
+  "showFloatingBar": {
+    "message": "플로팅 바 표시"
+  },
+  "showBadge": {
+    "message": "배지 표시"
+  },
+
+  "errorNoSession": {
+    "message": "claude.ai에 로그인되어 있지 않습니다"
+  },
+  "errorFetchFailed": {
+    "message": "사용량 데이터를 가져오지 못했습니다"
+  },
+  "errorRetrying": {
+    "message": "재시도 중..."
+  },
+
+  "hours": {
+    "message": "시간"
+  },
+  "mins": {
+    "message": "분"
+  }
+}

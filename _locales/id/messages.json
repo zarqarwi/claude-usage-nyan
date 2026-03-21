@@ -1,0 +1,116 @@
+{
+  "extName": {
+    "message": "Claude Usage Nyan"
+  },
+  "extDescription": {
+    "message": "Lacak penggunaan Claude — jangan sampai terkejut oleh batas kecepatan."
+  },
+  "popupTitle": {
+    "message": "Penggunaan Claude"
+  },
+  "officialUsage": {
+    "message": "Data resmi"
+  },
+  "realtimeTracking": {
+    "message": "Pelacakan real-time"
+  },
+  "sessionUsage": {
+    "message": "Sesi 5 jam"
+  },
+  "weeklyUsage": {
+    "message": "Penggunaan 7 hari"
+  },
+  "additionalUsage": {
+    "message": "Penggunaan tambahan"
+  },
+  "resetsIn": {
+    "message": "Reset dalam $TIME$",
+    "placeholders": {
+      "TIME": {
+        "content": "$1",
+        "example": "2h 15m"
+      }
+    }
+  },
+  "used": {
+    "message": "terpakai"
+  },
+  "remaining": {
+    "message": "tersisa"
+  },
+  "of": {
+    "message": "dari"
+  },
+  "unlimited": {
+    "message": "Tidak terbatas"
+  },
+  "inputTokens": {
+    "message": "Token masukan"
+  },
+  "outputTokens": {
+    "message": "Token keluaran"
+  },
+  "estimatedCost": {
+    "message": "Perkiraan biaya"
+  },
+  "model": {
+    "message": "Model"
+  },
+  "lastConversation": {
+    "message": "Percakapan terakhir"
+  },
+  "totalSession": {
+    "message": "Total sesi"
+  },
+  "badgeStatusSafe": {
+    "message": "Aman"
+  },
+  "badgeStatusWarning": {
+    "message": "Perhatian"
+  },
+  "badgeStatusDanger": {
+    "message": "Hampir penuh"
+  },
+  "badgeStatusCritical": {
+    "message": "Mendekati batas"
+  },
+  "floatingBarTitle": {
+    "message": "Penggunaan Claude"
+  },
+  "floatingBarCollapse": {
+    "message": "Klik untuk ciutkan"
+  },
+  "floatingBarExpand": {
+    "message": "Klik untuk perluas"
+  },
+  "settingsTitle": {
+    "message": "Pengaturan"
+  },
+  "refreshInterval": {
+    "message": "Interval pembaruan"
+  },
+  "minutes": {
+    "message": "menit"
+  },
+  "showFloatingBar": {
+    "message": "Tampilkan bilah mengambang"
+  },
+  "showBadge": {
+    "message": "Tampilkan lencana"
+  },
+  "errorNoSession": {
+    "message": "Belum masuk ke claude.ai"
+  },
+  "errorFetchFailed": {
+    "message": "Gagal mengambil data penggunaan"
+  },
+  "errorRetrying": {
+    "message": "Mencoba lagi…"
+  },
+  "hours": {
+    "message": "j"
+  },
+  "mins": {
+    "message": "mnt"
+  }
+}

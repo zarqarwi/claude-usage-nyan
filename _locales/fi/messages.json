@@ -1,0 +1,116 @@
+{
+  "extName": {
+    "message": "Claude Usage Nyan"
+  },
+  "extDescription": {
+    "message": "Seuraa Claude-käyttöäsi — ei yllätyksiä nopeusrajoituksista."
+  },
+  "popupTitle": {
+    "message": "Claude-käyttö"
+  },
+  "officialUsage": {
+    "message": "Viralliset tiedot"
+  },
+  "realtimeTracking": {
+    "message": "Reaaliaikainen seuranta"
+  },
+  "sessionUsage": {
+    "message": "5 tunnin istunto"
+  },
+  "weeklyUsage": {
+    "message": "7 päivän käyttö"
+  },
+  "additionalUsage": {
+    "message": "Lisäkäyttö"
+  },
+  "resetsIn": {
+    "message": "Nollautuu $TIME$ kuluttua",
+    "placeholders": {
+      "TIME": {
+        "content": "$1",
+        "example": "2h 15m"
+      }
+    }
+  },
+  "used": {
+    "message": "käytetty"
+  },
+  "remaining": {
+    "message": "jäljellä"
+  },
+  "of": {
+    "message": "/"
+  },
+  "unlimited": {
+    "message": "Rajoittamaton"
+  },
+  "inputTokens": {
+    "message": "Syötetokenit"
+  },
+  "outputTokens": {
+    "message": "Tulostetokenit"
+  },
+  "estimatedCost": {
+    "message": "Arvioitu hinta"
+  },
+  "model": {
+    "message": "Malli"
+  },
+  "lastConversation": {
+    "message": "Viimeisin keskustelu"
+  },
+  "totalSession": {
+    "message": "Istunnon yhteensä"
+  },
+  "badgeStatusSafe": {
+    "message": "OK"
+  },
+  "badgeStatusWarning": {
+    "message": "Huomio"
+  },
+  "badgeStatusDanger": {
+    "message": "Lähes täynnä"
+  },
+  "badgeStatusCritical": {
+    "message": "Rajalla"
+  },
+  "floatingBarTitle": {
+    "message": "Claude-käyttö"
+  },
+  "floatingBarCollapse": {
+    "message": "Napsauta piilottaaksesi"
+  },
+  "floatingBarExpand": {
+    "message": "Napsauta laajentaaksesi"
+  },
+  "settingsTitle": {
+    "message": "Asetukset"
+  },
+  "refreshInterval": {
+    "message": "Päivitysväli"
+  },
+  "minutes": {
+    "message": "minuuttia"
+  },
+  "showFloatingBar": {
+    "message": "Näytä kelluva palkki"
+  },
+  "showBadge": {
+    "message": "Näytä merkki"
+  },
+  "errorNoSession": {
+    "message": "Et ole kirjautunut claude.ai-palveluun"
+  },
+  "errorFetchFailed": {
+    "message": "Käyttötietojen haku epäonnistui"
+  },
+  "errorRetrying": {
+    "message": "Yritetään uudelleen…"
+  },
+  "hours": {
+    "message": "t"
+  },
+  "mins": {
+    "message": "min"
+  }
+}

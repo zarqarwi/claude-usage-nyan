@@ -1,0 +1,116 @@
+{
+  "extName": {
+    "message": "Claude Usage Nyan"
+  },
+  "extDescription": {
+    "message": "Claude ব্যবহার ট্র্যাক করুন — হঠাৎ রেট লিমিটে পড়বেন না।"
+  },
+  "popupTitle": {
+    "message": "Claude ব্যবহার"
+  },
+  "officialUsage": {
+    "message": "অফিসিয়াল ডেটা"
+  },
+  "realtimeTracking": {
+    "message": "রিয়েলটাইম ট্র্যাকিং"
+  },
+  "sessionUsage": {
+    "message": "৫ ঘণ্টা সেশন"
+  },
+  "weeklyUsage": {
+    "message": "৭ দিনের ব্যবহার"
+  },
+  "additionalUsage": {
+    "message": "অতিরিক্ত ব্যবহার"
+  },
+  "resetsIn": {
+    "message": "$TIME$ পরে রিসেট",
+    "placeholders": {
+      "TIME": {
+        "content": "$1",
+        "example": "2h 15m"
+      }
+    }
+  },
+  "used": {
+    "message": "ব্যবহৃত"
+  },
+  "remaining": {
+    "message": "বাকি"
+  },
+  "of": {
+    "message": "/"
+  },
+  "unlimited": {
+    "message": "সীমাহীন"
+  },
+  "inputTokens": {
+    "message": "ইনপুট টোকেন"
+  },
+  "outputTokens": {
+    "message": "আউটপুট টোকেন"
+  },
+  "estimatedCost": {
+    "message": "আনুমানিক খরচ"
+  },
+  "model": {
+    "message": "মডেল"
+  },
+  "lastConversation": {
+    "message": "শেষ কথোপকথন"
+  },
+  "totalSession": {
+    "message": "সেশন মোট"
+  },
+  "badgeStatusSafe": {
+    "message": "নিরাপদ"
+  },
+  "badgeStatusWarning": {
+    "message": "সতর্কতা"
+  },
+  "badgeStatusDanger": {
+    "message": "প্রায় পূর্ণ"
+  },
+  "badgeStatusCritical": {
+    "message": "সীমায় পৌঁছাচ্ছে"
+  },
+  "floatingBarTitle": {
+    "message": "Claude ব্যবহার"
+  },
+  "floatingBarCollapse": {
+    "message": "সংকুচিত করতে ক্লিক করুন"
+  },
+  "floatingBarExpand": {
+    "message": "প্রসারিত করতে ক্লিক করুন"
+  },
+  "settingsTitle": {
+    "message": "সেটিংস"
+  },
+  "refreshInterval": {
+    "message": "আপডেট বিরতি"
+  },
+  "minutes": {
+    "message": "মিনিট"
+  },
+  "showFloatingBar": {
+    "message": "ফ্লোটিং বার দেখান"
+  },
+  "showBadge": {
+    "message": "ব্যাজ দেখান"
+  },
+  "errorNoSession": {
+    "message": "claude.ai-তে লগইন করা হয়নি"
+  },
+  "errorFetchFailed": {
+    "message": "ব্যবহার ডেটা আনা যায়নি"
+  },
+  "errorRetrying": {
+    "message": "পুনরায় চেষ্টা হচ্ছে…"
+  },
+  "hours": {
+    "message": "ঘ"
+  },
+  "mins": {
+    "message": "মি"
+  }
+}

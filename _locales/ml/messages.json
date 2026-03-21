@@ -1,0 +1,116 @@
+{
+  "extName": {
+    "message": "Claude Usage Nyan"
+  },
+  "extDescription": {
+    "message": "നിങ്ങളുടെ Claude ഉപയോഗം ട്രാക്ക് ചെയ്യൂ — റേറ്റ് ലിമിറ്റ് ആശ്ചര്യം ഒഴിവാക്കൂ."
+  },
+  "popupTitle": {
+    "message": "Claude ഉപയോഗം"
+  },
+  "officialUsage": {
+    "message": "ഔദ്യോഗിക ഡാറ്റ"
+  },
+  "realtimeTracking": {
+    "message": "റിയൽ-ടൈം ട്രാക്കിങ്"
+  },
+  "sessionUsage": {
+    "message": "5-മണിക്കൂർ സെഷൻ"
+  },
+  "weeklyUsage": {
+    "message": "7-ദിവസ ഉപയോഗം"
+  },
+  "additionalUsage": {
+    "message": "അധിക ഉപയോഗം"
+  },
+  "resetsIn": {
+    "message": "$TIME$ ൽ റീസെറ്റ്",
+    "placeholders": {
+      "TIME": {
+        "content": "$1",
+        "example": "2h 15m"
+      }
+    }
+  },
+  "used": {
+    "message": "ഉപയോഗിച്ചു"
+  },
+  "remaining": {
+    "message": "ബാക്കി"
+  },
+  "of": {
+    "message": "/"
+  },
+  "unlimited": {
+    "message": "പരിധിയില്ല"
+  },
+  "inputTokens": {
+    "message": "ഇൻപുട്ട് ടോക്കണുകൾ"
+  },
+  "outputTokens": {
+    "message": "ഔട്ട്‌പുട്ട് ടോക്കണുകൾ"
+  },
+  "estimatedCost": {
+    "message": "അനുമാന ചെലവ്"
+  },
+  "model": {
+    "message": "മോഡൽ"
+  },
+  "lastConversation": {
+    "message": "അവസാന സംഭാഷണം"
+  },
+  "totalSession": {
+    "message": "സെഷൻ ആകെ"
+  },
+  "badgeStatusSafe": {
+    "message": "സുരക്ഷിതം"
+  },
+  "badgeStatusWarning": {
+    "message": "ശ്രദ്ധിക്കുക"
+  },
+  "badgeStatusDanger": {
+    "message": "ഏതാണ്ട് നിറഞ്ഞു"
+  },
+  "badgeStatusCritical": {
+    "message": "പരിധിയോട് അടുത്തു"
+  },
+  "floatingBarTitle": {
+    "message": "Claude ഉപയോഗം"
+  },
+  "floatingBarCollapse": {
+    "message": "ചുരുക്കാൻ ക്ലിക്ക് ചെയ്യുക"
+  },
+  "floatingBarExpand": {
+    "message": "വിപുലീകരിക്കാൻ ക്ലിക്ക് ചെയ്യുക"
+  },
+  "settingsTitle": {
+    "message": "ക്രമീകരണങ്ങൾ"
+  },
+  "refreshInterval": {
+    "message": "അപ്‌ഡേറ്റ് ഇടവേള"
+  },
+  "minutes": {
+    "message": "മിനിറ്റ്"
+  },
+  "showFloatingBar": {
+    "message": "ഫ്ലോട്ടിങ് ബാർ കാണിക്കുക"
+  },
+  "showBadge": {
+    "message": "ബാഡ്ജ് കാണിക്കുക"
+  },
+  "errorNoSession": {
+    "message": "claude.ai-ൽ ലോഗിൻ ചെയ്തിട്ടില്ല"
+  },
+  "errorFetchFailed": {
+    "message": "ഉപയോഗ ഡാറ്റ നേടാനായില്ല"
+  },
+  "errorRetrying": {
+    "message": "വീണ്ടും ശ്രമിക്കുന്നു…"
+  },
+  "hours": {
+    "message": "മ"
+  },
+  "mins": {
+    "message": "മി"
+  }
+}

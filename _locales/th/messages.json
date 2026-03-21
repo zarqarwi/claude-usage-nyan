@@ -1,0 +1,116 @@
+{
+  "extName": {
+    "message": "Claude Usage Nyan"
+  },
+  "extDescription": {
+    "message": "ติดตามการใช้งาน Claude — ไม่ต้องเจอเซอร์ไพรส์ rate limit"
+  },
+  "popupTitle": {
+    "message": "การใช้งาน Claude"
+  },
+  "officialUsage": {
+    "message": "ข้อมูลอย่างเป็นทางการ"
+  },
+  "realtimeTracking": {
+    "message": "ติดตามแบบเรียลไทม์"
+  },
+  "sessionUsage": {
+    "message": "เซสชัน 5 ชั่วโมง"
+  },
+  "weeklyUsage": {
+    "message": "การใช้งาน 7 วัน"
+  },
+  "additionalUsage": {
+    "message": "การใช้งานเพิ่มเติม"
+  },
+  "resetsIn": {
+    "message": "รีเซ็ตใน $TIME$",
+    "placeholders": {
+      "TIME": {
+        "content": "$1",
+        "example": "2h 15m"
+      }
+    }
+  },
+  "used": {
+    "message": "ใช้ไปแล้ว"
+  },
+  "remaining": {
+    "message": "เหลือ"
+  },
+  "of": {
+    "message": "จาก"
+  },
+  "unlimited": {
+    "message": "ไม่จำกัด"
+  },
+  "inputTokens": {
+    "message": "โทเค็นนำเข้า"
+  },
+  "outputTokens": {
+    "message": "โทเค็นส่งออก"
+  },
+  "estimatedCost": {
+    "message": "ค่าใช้จ่ายโดยประมาณ"
+  },
+  "model": {
+    "message": "โมเดล"
+  },
+  "lastConversation": {
+    "message": "บทสนทนาล่าสุด"
+  },
+  "totalSession": {
+    "message": "รวมเซสชัน"
+  },
+  "badgeStatusSafe": {
+    "message": "ปลอดภัย"
+  },
+  "badgeStatusWarning": {
+    "message": "ระวัง"
+  },
+  "badgeStatusDanger": {
+    "message": "ใกล้เต็ม"
+  },
+  "badgeStatusCritical": {
+    "message": "เกือบถึงขีดจำกัด"
+  },
+  "floatingBarTitle": {
+    "message": "การใช้งาน Claude"
+  },
+  "floatingBarCollapse": {
+    "message": "คลิกเพื่อย่อ"
+  },
+  "floatingBarExpand": {
+    "message": "คลิกเพื่อขยาย"
+  },
+  "settingsTitle": {
+    "message": "ตั้งค่า"
+  },
+  "refreshInterval": {
+    "message": "ช่วงเวลาอัปเดต"
+  },
+  "minutes": {
+    "message": "นาที"
+  },
+  "showFloatingBar": {
+    "message": "แสดงแถบลอย"
+  },
+  "showBadge": {
+    "message": "แสดงป้าย"
+  },
+  "errorNoSession": {
+    "message": "ยังไม่ได้เข้าสู่ระบบ claude.ai"
+  },
+  "errorFetchFailed": {
+    "message": "ไม่สามารถดึงข้อมูลการใช้งาน"
+  },
+  "errorRetrying": {
+    "message": "กำลังลองใหม่…"
+  },
+  "hours": {
+    "message": "ชม"
+  },
+  "mins": {
+    "message": "น"
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "extName": {
+    "message": "Claude Usage Nyan"
+  },
+  "extDescription": {
+    "message": "تتبع استخدام Claude — لا تتفاجأ بحد المعدل."
+  },
+  "popupTitle": {
+    "message": "استخدام Claude"
+  },
+  "officialUsage": {
+    "message": "البيانات الرسمية"
+  },
+  "realtimeTracking": {
+    "message": "تتبع فوري"
+  },
+  "sessionUsage": {
+    "message": "جلسة 5 ساعات"
+  },
+  "weeklyUsage": {
+    "message": "استخدام 7 أيام"
+  },
+  "additionalUsage": {
+    "message": "استخدام إضافي"
+  },
+  "resetsIn": {
+    "message": "إعادة تعيين خلال $TIME$",
+    "placeholders": {
+      "TIME": {
+        "content": "$1",
+        "example": "2h 15m"
+      }
+    }
+  },
+  "used": {
+    "message": "مستخدم"
+  },
+  "remaining": {
+    "message": "متبقٍ"
+  },
+  "of": {
+    "message": "من"
+  },
+  "unlimited": {
+    "message": "غير محدود"
+  },
+  "inputTokens": {
+    "message": "رموز الإدخال"
+  },
+  "outputTokens": {
+    "message": "رموز الإخراج"
+  },
+  "estimatedCost": {
+    "message": "التكلفة المقدرة"
+  },
+  "model": {
+    "message": "النموذج"
+  },
+  "lastConversation": {
+    "message": "آخر محادثة"
+  },
+  "totalSession": {
+    "message": "إجمالي الجلسة"
+  },
+  "badgeStatusSafe": {
+    "message": "آمن"
+  },
+  "badgeStatusWarning": {
+    "message": "تنبيه"
+  },
+  "badgeStatusDanger": {
+    "message": "يكاد يمتلئ"
+  },
+  "badgeStatusCritical": {
+    "message": "وشيك الامتلاء"
+  },
+  "floatingBarTitle": {
+    "message": "استخدام Claude"
+  },
+  "floatingBarCollapse": {
+    "message": "انقر للطي"
+  },
+  "floatingBarExpand": {
+    "message": "انقر للتوسيع"
+  },
+  "settingsTitle": {
+    "message": "الإعدادات"
+  },
+  "refreshInterval": {
+    "message": "فترة التحديث"
+  },
+  "minutes": {
+    "message": "دقائق"
+  },
+  "showFloatingBar": {
+    "message": "إظهار الشريط العائم"
+  },
+  "showBadge": {
+    "message": "إظهار الشارة"
+  },
+  "errorNoSession": {
+    "message": "لم يتم تسجيل الدخول إلى claude.ai"
+  },
+  "errorFetchFailed": {
+    "message": "فشل في جلب بيانات الاستخدام"
+  },
+  "errorRetrying": {
+    "message": "جارٍ إعادة المحاولة…"
+  },
+  "hours": {
+    "message": "س"
+  },
+  "mins": {
+    "message": "د"
+  }
+}

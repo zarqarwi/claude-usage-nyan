@@ -1,41 +1,266 @@
 {
-  "extName": { "message": "Claude Usage Nyan — Usage Tracker" },
-  "extDescription": { "message": "Track your Claude usage in a cute way 🐱 Real-time token estimation + official usage percentage" },
-  "appTitle": { "message": "Claude Usage Nyan" },
-  "loading": { "message": "Loading..." },
-  "refreshTitle": { "message": "Refresh" },
-  "connecting": { "message": "Connecting..." },
-  "connected": { "message": "Connected" },
-  "connectedRaw": { "message": "Connected (raw data)" },
-  "notLoggedIn": { "message": "Not logged in" },
-  "connError": { "message": "Connection error" },
-  "officialUsage": { "message": "📡 Official usage (updates every 5 min)" },
-  "tokenTracking": { "message": "⚡ Real-time token tracking" },
-  "inputTokens": { "message": "Input tokens" },
-  "outputTokens": { "message": "Output tokens" },
-  "estimatedCost": { "message": "Est. cost" },
-  "conversations": { "message": "$1 chats" },
-  "estimate": { "message": "Estimated" },
-  "hasOfficial": { "message": "Official data" },
-  "resetCount": { "message": "🗑️ Reset count" },
-  "resetCountTitle": { "message": "Reset token count" },
-  "emptyMsg": { "message": "No usage data found..." },
-  "emptyHint": { "message": "Please log in to claude.ai first" },
-  "errorHint": { "message": "Try refreshing?" },
-  "notUpdated": { "message": "Not updated yet" },
-  "autoRefresh": { "message": "Auto-refresh every 5 min" },
-  "updatedAgo": { "message": "Updated $1 ago" },
-  "seconds": { "message": "$1s" },
-  "minutes": { "message": "$1m" },
-  "hours": { "message": "$1h" },
-  "resetIn": { "message": "Resets in $1" },
-  "alreadyReset": { "message": "Reset" },
-  "refreshing": { "message": "Refreshing..." },
-  "refreshFailed": { "message": "Refresh failed" },
-  "bgConnFailed": { "message": "Cannot connect to background service" },
-  "rawDataLabel": { "message": "🔍 Raw response data" },
-  "rawDataHint": { "message": "API format may need parsing adjustment 🐱" },
-  "tierFiveHour": { "message": "⏱️ 5-hour session" },
-  "tierSevenDay": { "message": "📅 7-day usage" },
-  "tierExtra": { "message": "💳 Extra usage" }
+  "extName": {
+    "message": "Claude Usage Nyan",
+    "description": "Extension name"
+  },
+  "extDescription": {
+    "message": "Track your Claude usage — never hit the rate limit by surprise.",
+    "description": "Extension description for Chrome Web Store"
+  },
+
+  "popupTitle": {
+    "message": "Claude Usage",
+    "description": "Popup header title"
+  },
+  "officialUsage": {
+    "message": "Official Usage",
+    "description": "Section header for Anthropic official data"
+  },
+  "realtimeTracking": {
+    "message": "Real-time Tracking",
+    "description": "Section header for token tracking"
+  },
+
+  "sessionUsage": {
+    "message": "5-hour session",
+    "description": "5-hour session usage label"
+  },
+  "weeklyUsage": {
+    "message": "7-day usage",
+    "description": "7-day usage label"
+  },
+  "additionalUsage": {
+    "message": "Additional usage",
+    "description": "Additional/bonus usage label"
+  },
+  "resetsIn": {
+    "message": "Resets in $TIME$",
+    "description": "Countdown to reset",
+    "placeholders": {
+      "TIME": { "content": "$1", "example": "2h 15m" }
+    }
+  },
+  "used": {
+    "message": "used",
+    "description": "Usage percentage suffix, e.g. '45% used'"
+  },
+  "remaining": {
+    "message": "remaining",
+    "description": "Remaining label"
+  },
+  "of": {
+    "message": "of",
+    "description": "Connector word, e.g. '500 of 1000'"
+  },
+  "unlimited": {
+    "message": "Unlimited",
+    "description": "Unlimited usage label"
+  },
+
+  "inputTokens": {
+    "message": "Input tokens",
+    "description": "Input token count label"
+  },
+  "outputTokens": {
+    "message": "Output tokens",
+    "description": "Output token count label"
+  },
+  "estimatedCost": {
+    "message": "Estimated cost",
+    "description": "Cost estimation label"
+  },
+  "model": {
+    "message": "Model",
+    "description": "AI model label"
+  },
+  "lastConversation": {
+    "message": "Last conversation",
+    "description": "Label for the most recent conversation stats"
+  },
+  "totalSession": {
+    "message": "Session total",
+    "description": "Total for current session"
+  },
+
+  "badgeStatusSafe": {
+    "message": "Safe",
+    "description": "Badge status: green, plenty of quota"
+  },
+  "badgeStatusWarning": {
+    "message": "Watch out",
+    "description": "Badge status: yellow, approaching limit"
+  },
+  "badgeStatusDanger": {
+    "message": "Getting close",
+    "description": "Badge status: orange, near limit"
+  },
+  "badgeStatusCritical": {
+    "message": "Almost full",
+    "description": "Badge status: red, nearly at limit"
+  },
+
+  "floatingBarTitle": {
+    "message": "Claude Usage",
+    "description": "Floating bar title on claude.ai page"
+  },
+  "floatingBarCollapse": {
+    "message": "Click to collapse",
+    "description": "Tooltip for collapsing the floating bar"
+  },
+  "floatingBarExpand": {
+    "message": "Click to expand",
+    "description": "Tooltip for expanding the floating bar"
+  },
+
+  "settingsTitle": {
+    "message": "Settings",
+    "description": "Settings page title"
+  },
+  "refreshInterval": {
+    "message": "Refresh interval",
+    "description": "How often to poll usage API"
+  },
+  "minutes": {
+    "message": "minutes",
+    "description": "Time unit"
+  },
+  "showFloatingBar": {
+    "message": "Show floating bar",
+    "description": "Toggle for floating status bar"
+  },
+  "showBadge": {
+    "message": "Show badge",
+    "description": "Toggle for toolbar badge"
+  },
+
+  "errorNoSession": {
+    "message": "Not logged in to claude.ai",
+    "description": "Error when no session cookie found"
+  },
+  "errorFetchFailed": {
+    "message": "Failed to fetch usage data",
+    "description": "Error when API call fails"
+  },
+  "errorRetrying": {
+    "message": "Retrying...",
+    "description": "Retry status message"
+  },
+
+  "hours": {
+    "message": "h",
+    "description": "Hours abbreviation"
+  },
+  "mins": {
+    "message": "m",
+    "description": "Minutes abbreviation"
+  },
+
+  "appTitle": {
+    "message": "Claude Usage Nyan",
+    "description": "Popup main title"
+  },
+  "loading": {
+    "message": "Loading...",
+    "description": "Loading state text"
+  },
+  "connecting": {
+    "message": "Connecting...",
+    "description": "Connection status"
+  },
+  "connected": {
+    "message": "Connected",
+    "description": "Successful connection status"
+  },
+  "connectedRaw": {
+    "message": "Connected (raw)",
+    "description": "Connected but showing raw API data"
+  },
+  "connError": {
+    "message": "Connection error",
+    "description": "Connection error status"
+  },
+  "bgConnFailed": {
+    "message": "Cannot connect to background",
+    "description": "Background service worker connection failure"
+  },
+  "refreshTitle": {
+    "message": "Refresh",
+    "description": "Refresh button tooltip"
+  },
+  "refreshing": {
+    "message": "Refreshing...",
+    "description": "Refresh in progress"
+  },
+  "refreshFailed": {
+    "message": "Refresh failed",
+    "description": "Refresh failure message"
+  },
+  "notLoggedIn": {
+    "message": "Not logged in",
+    "description": "Not logged in to claude.ai"
+  },
+  "conversations": {
+    "message": "conversations",
+    "description": "Conversation count label"
+  },
+  "estimate": {
+    "message": "Estimated",
+    "description": "Tag for estimated (non-official) data"
+  },
+  "hasOfficial": {
+    "message": "Official",
+    "description": "Tag for official API data"
+  },
+  "resetCount": {
+    "message": "Reset counter",
+    "description": "Reset token counter button"
+  },
+  "resetCountTitle": {
+    "message": "Reset token counter",
+    "description": "Reset button tooltip"
+  },
+  "emptyMsg": {
+    "message": "No usage data yet...",
+    "description": "Empty state message"
+  },
+  "emptyHint": {
+    "message": "Please log in to claude.ai",
+    "description": "Empty state hint"
+  },
+  "errorHint": {
+    "message": "Try refreshing?",
+    "description": "Error state hint"
+  },
+  "notUpdated": {
+    "message": "Not updated yet",
+    "description": "Footer text before first update"
+  },
+  "autoRefresh": {
+    "message": "Auto-refresh every 5 min",
+    "description": "Footer auto-refresh note"
+  },
+  "updatedAgo": {
+    "message": "Updated $1 ago",
+    "description": "Last updated time"
+  },
+  "seconds": {
+    "message": "$1s",
+    "description": "Seconds ago format"
+  },
+  "alreadyReset": {
+    "message": "Already reset",
+    "description": "Timer already reset"
+  },
+  "resetIn": {
+    "message": "Resets in $1",
+    "description": "Reset countdown"
+  },
+  "rawDataLabel": {
+    "message": "Raw Data",
+    "description": "Raw API data card label"
+  },
+  "rawDataHint": {
+    "message": "API format may have changed",
+    "description": "Hint when showing raw data"
+  }
 }

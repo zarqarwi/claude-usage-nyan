@@ -1,0 +1,116 @@
+{
+  "extName": {
+    "message": "Claude Usage Nyan"
+  },
+  "extDescription": {
+    "message": "Volg je Claude-gebruik — nooit verrast door de snelheidslimiet."
+  },
+  "popupTitle": {
+    "message": "Claude-gebruik"
+  },
+  "officialUsage": {
+    "message": "Officiële gegevens"
+  },
+  "realtimeTracking": {
+    "message": "Realtime tracking"
+  },
+  "sessionUsage": {
+    "message": "5-uurssessie"
+  },
+  "weeklyUsage": {
+    "message": "7-daags gebruik"
+  },
+  "additionalUsage": {
+    "message": "Extra gebruik"
+  },
+  "resetsIn": {
+    "message": "Reset over $TIME$",
+    "placeholders": {
+      "TIME": {
+        "content": "$1",
+        "example": "2h 15m"
+      }
+    }
+  },
+  "used": {
+    "message": "gebruikt"
+  },
+  "remaining": {
+    "message": "resterend"
+  },
+  "of": {
+    "message": "van"
+  },
+  "unlimited": {
+    "message": "Onbeperkt"
+  },
+  "inputTokens": {
+    "message": "Invoertokens"
+  },
+  "outputTokens": {
+    "message": "Uitvoertokens"
+  },
+  "estimatedCost": {
+    "message": "Geschatte kosten"
+  },
+  "model": {
+    "message": "Model"
+  },
+  "lastConversation": {
+    "message": "Laatste gesprek"
+  },
+  "totalSession": {
+    "message": "Sessietotaal"
+  },
+  "badgeStatusSafe": {
+    "message": "Veilig"
+  },
+  "badgeStatusWarning": {
+    "message": "Let op"
+  },
+  "badgeStatusDanger": {
+    "message": "Bijna vol"
+  },
+  "badgeStatusCritical": {
+    "message": "Bijna op"
+  },
+  "floatingBarTitle": {
+    "message": "Claude-gebruik"
+  },
+  "floatingBarCollapse": {
+    "message": "Klik om in te klappen"
+  },
+  "floatingBarExpand": {
+    "message": "Klik om uit te klappen"
+  },
+  "settingsTitle": {
+    "message": "Instellingen"
+  },
+  "refreshInterval": {
+    "message": "Verversingsinterval"
+  },
+  "minutes": {
+    "message": "minuten"
+  },
+  "showFloatingBar": {
+    "message": "Zwevende balk tonen"
+  },
+  "showBadge": {
+    "message": "Badge tonen"
+  },
+  "errorNoSession": {
+    "message": "Niet ingelogd op claude.ai"
+  },
+  "errorFetchFailed": {
+    "message": "Gebruiksgegevens ophalen mislukt"
+  },
+  "errorRetrying": {
+    "message": "Opnieuw proberen…"
+  },
+  "hours": {
+    "message": "u"
+  },
+  "mins": {
+    "message": "min"
+  }
+}

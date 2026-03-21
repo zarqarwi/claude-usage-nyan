@@ -1,0 +1,116 @@
+{
+  "extName": {
+    "message": "Claude Usage Nyan"
+  },
+  "extDescription": {
+    "message": "మీ Claude వాడకాన్ని ట్రాక్ చేయండి — రేట్ లిమిట్ ఆశ్చర్యం నివారించండి."
+  },
+  "popupTitle": {
+    "message": "Claude వాడకం"
+  },
+  "officialUsage": {
+    "message": "అధికారిక డేటా"
+  },
+  "realtimeTracking": {
+    "message": "రియల్-టైమ్ ట్రాకింగ్"
+  },
+  "sessionUsage": {
+    "message": "5-గంట సెషన్"
+  },
+  "weeklyUsage": {
+    "message": "7-రోజుల వాడకం"
+  },
+  "additionalUsage": {
+    "message": "అదనపు వాడకం"
+  },
+  "resetsIn": {
+    "message": "$TIME$ లో రీసెట్",
+    "placeholders": {
+      "TIME": {
+        "content": "$1",
+        "example": "2h 15m"
+      }
+    }
+  },
+  "used": {
+    "message": "వాడిన"
+  },
+  "remaining": {
+    "message": "మిగిలిన"
+  },
+  "of": {
+    "message": "/"
+  },
+  "unlimited": {
+    "message": "అపరిమితం"
+  },
+  "inputTokens": {
+    "message": "ఇన్‌పుట్ టోకెన్లు"
+  },
+  "outputTokens": {
+    "message": "అవుట్‌పుట్ టోకెన్లు"
+  },
+  "estimatedCost": {
+    "message": "అంచనా ఖర్చు"
+  },
+  "model": {
+    "message": "మోడల్"
+  },
+  "lastConversation": {
+    "message": "చివరి సంభాషణ"
+  },
+  "totalSession": {
+    "message": "సెషన్ మొత్తం"
+  },
+  "badgeStatusSafe": {
+    "message": "సురక్షితం"
+  },
+  "badgeStatusWarning": {
+    "message": "జాగ్రత్త"
+  },
+  "badgeStatusDanger": {
+    "message": "దాదాపు నిండింది"
+  },
+  "badgeStatusCritical": {
+    "message": "పరిమితి సమీపంలో"
+  },
+  "floatingBarTitle": {
+    "message": "Claude వాడకం"
+  },
+  "floatingBarCollapse": {
+    "message": "కుదించడానికి క్లిక్ చేయండి"
+  },
+  "floatingBarExpand": {
+    "message": "విస్తరించడానికి క్లిక్ చేయండి"
+  },
+  "settingsTitle": {
+    "message": "సెట్టింగ్‌లు"
+  },
+  "refreshInterval": {
+    "message": "నవీకరణ వ్యవధి"
+  },
+  "minutes": {
+    "message": "నిమిషాలు"
+  },
+  "showFloatingBar": {
+    "message": "ఫ్లోటింగ్ బార్ చూపించు"
+  },
+  "showBadge": {
+    "message": "బ్యాడ్జ్ చూపించు"
+  },
+  "errorNoSession": {
+    "message": "claude.ai లో లాగిన్ అవ్వలేదు"
+  },
+  "errorFetchFailed": {
+    "message": "వాడకం డేటా పొందడం విఫలమైంది"
+  },
+  "errorRetrying": {
+    "message": "మళ్ళీ ప్రయత్నిస్తోంది…"
+  },
+  "hours": {
+    "message": "గం"
+  },
+  "mins": {
+    "message": "ని"
+  }
+}

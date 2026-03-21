@@ -1,0 +1,116 @@
+{
+  "extName": {
+    "message": "Claude Usage Nyan"
+  },
+  "extDescription": {
+    "message": "Jälgi Claude'i kasutust — ära lase end piirmäärast üllatada."
+  },
+  "popupTitle": {
+    "message": "Claude'i kasutus"
+  },
+  "officialUsage": {
+    "message": "Ametlikud andmed"
+  },
+  "realtimeTracking": {
+    "message": "Reaalajas jälgimine"
+  },
+  "sessionUsage": {
+    "message": "5-tunnine seanss"
+  },
+  "weeklyUsage": {
+    "message": "7-päevane kasutus"
+  },
+  "additionalUsage": {
+    "message": "Lisakasutus"
+  },
+  "resetsIn": {
+    "message": "Lähtestamine $TIME$ pärast",
+    "placeholders": {
+      "TIME": {
+        "content": "$1",
+        "example": "2h 15m"
+      }
+    }
+  },
+  "used": {
+    "message": "kasutatud"
+  },
+  "remaining": {
+    "message": "jääk"
+  },
+  "of": {
+    "message": "/"
+  },
+  "unlimited": {
+    "message": "Piiramatu"
+  },
+  "inputTokens": {
+    "message": "Sisendtokenid"
+  },
+  "outputTokens": {
+    "message": "Väljundtokenid"
+  },
+  "estimatedCost": {
+    "message": "Hinnanguline kulu"
+  },
+  "model": {
+    "message": "Mudel"
+  },
+  "lastConversation": {
+    "message": "Viimane vestlus"
+  },
+  "totalSession": {
+    "message": "Seansi kokku"
+  },
+  "badgeStatusSafe": {
+    "message": "Korras"
+  },
+  "badgeStatusWarning": {
+    "message": "Tähelepanu"
+  },
+  "badgeStatusDanger": {
+    "message": "Peaaegu täis"
+  },
+  "badgeStatusCritical": {
+    "message": "Piiri lähedal"
+  },
+  "floatingBarTitle": {
+    "message": "Claude'i kasutus"
+  },
+  "floatingBarCollapse": {
+    "message": "Klõpsa peitmiseks"
+  },
+  "floatingBarExpand": {
+    "message": "Klõpsa laiendamiseks"
+  },
+  "settingsTitle": {
+    "message": "Seaded"
+  },
+  "refreshInterval": {
+    "message": "Värskendusintervall"
+  },
+  "minutes": {
+    "message": "minutit"
+  },
+  "showFloatingBar": {
+    "message": "Näita hõljuvat riba"
+  },
+  "showBadge": {
+    "message": "Näita märki"
+  },
+  "errorNoSession": {
+    "message": "Pole claude.ai-sse sisse logitud"
+  },
+  "errorFetchFailed": {
+    "message": "Kasutusandmete laadimine ebaõnnestus"
+  },
+  "errorRetrying": {
+    "message": "Proovin uuesti…"
+  },
+  "hours": {
+    "message": "t"
+  },
+  "mins": {
+    "message": "min"
+  }
+}

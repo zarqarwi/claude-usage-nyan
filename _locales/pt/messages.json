@@ -1,0 +1,116 @@
+{
+  "extName": {
+    "message": "Claude Usage Nyan"
+  },
+  "extDescription": {
+    "message": "Acompanhe o uso do Claude — evite atingir o limite por surpresa."
+  },
+  "popupTitle": {
+    "message": "Uso do Claude"
+  },
+  "officialUsage": {
+    "message": "Dados oficiais"
+  },
+  "realtimeTracking": {
+    "message": "Rastreamento em tempo real"
+  },
+  "sessionUsage": {
+    "message": "Sessão de 5 horas"
+  },
+  "weeklyUsage": {
+    "message": "Uso de 7 dias"
+  },
+  "additionalUsage": {
+    "message": "Uso adicional"
+  },
+  "resetsIn": {
+    "message": "Reinicia em $TIME$",
+    "placeholders": {
+      "TIME": {
+        "content": "$1",
+        "example": "2h 15m"
+      }
+    }
+  },
+  "used": {
+    "message": "usado"
+  },
+  "remaining": {
+    "message": "restante"
+  },
+  "of": {
+    "message": "de"
+  },
+  "unlimited": {
+    "message": "Ilimitado"
+  },
+  "inputTokens": {
+    "message": "Tokens de entrada"
+  },
+  "outputTokens": {
+    "message": "Tokens de saída"
+  },
+  "estimatedCost": {
+    "message": "Custo estimado"
+  },
+  "model": {
+    "message": "Modelo"
+  },
+  "lastConversation": {
+    "message": "Última conversa"
+  },
+  "totalSession": {
+    "message": "Total da sessão"
+  },
+  "badgeStatusSafe": {
+    "message": "Seguro"
+  },
+  "badgeStatusWarning": {
+    "message": "Atenção"
+  },
+  "badgeStatusDanger": {
+    "message": "Quase cheio"
+  },
+  "badgeStatusCritical": {
+    "message": "Quase no limite"
+  },
+  "floatingBarTitle": {
+    "message": "Uso do Claude"
+  },
+  "floatingBarCollapse": {
+    "message": "Clique para recolher"
+  },
+  "floatingBarExpand": {
+    "message": "Clique para expandir"
+  },
+  "settingsTitle": {
+    "message": "Configurações"
+  },
+  "refreshInterval": {
+    "message": "Intervalo de atualização"
+  },
+  "minutes": {
+    "message": "minutos"
+  },
+  "showFloatingBar": {
+    "message": "Mostrar barra flutuante"
+  },
+  "showBadge": {
+    "message": "Mostrar badge"
+  },
+  "errorNoSession": {
+    "message": "Não conectado ao claude.ai"
+  },
+  "errorFetchFailed": {
+    "message": "Falha ao obter dados de uso"
+  },
+  "errorRetrying": {
+    "message": "Tentando novamente..."
+  },
+  "hours": {
+    "message": "h"
+  },
+  "mins": {
+    "message": "min"
+  }
+}

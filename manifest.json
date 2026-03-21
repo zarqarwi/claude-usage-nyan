@@ -1,13 +1,13 @@
 {
   "manifest_version": 3,
   "name": "__MSG_extName__",
-  "version": "0.5.0",
+  "version": "1.0.0",
   "description": "__MSG_extDescription__",
-  "default_locale": "zh_TW",
+  "default_locale": "en",
+  "homepage_url": "https://github.com/zarqarwi/claude-usage-nyan",
   "permissions": [
     "storage",
-    "alarms",
-    "cookies"
+    "alarms"
   ],
   "host_permissions": [
     "https://claude.ai/*"

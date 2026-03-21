@@ -1,0 +1,116 @@
+{
+  "extName": {
+    "message": "Claude Usage Nyan"
+  },
+  "extDescription": {
+    "message": "Пратите коришћење Claude-а — без изненађења са ограничењима."
+  },
+  "popupTitle": {
+    "message": "Коришћење Claude"
+  },
+  "officialUsage": {
+    "message": "Званични подаци"
+  },
+  "realtimeTracking": {
+    "message": "Праћење у реалном времену"
+  },
+  "sessionUsage": {
+    "message": "Сесија од 5 сати"
+  },
+  "weeklyUsage": {
+    "message": "Коришћење за 7 дана"
+  },
+  "additionalUsage": {
+    "message": "Додатно коришћење"
+  },
+  "resetsIn": {
+    "message": "Ресетовање за $TIME$",
+    "placeholders": {
+      "TIME": {
+        "content": "$1",
+        "example": "2h 15m"
+      }
+    }
+  },
+  "used": {
+    "message": "искоришћено"
+  },
+  "remaining": {
+    "message": "преостало"
+  },
+  "of": {
+    "message": "од"
+  },
+  "unlimited": {
+    "message": "Неограничено"
+  },
+  "inputTokens": {
+    "message": "Улазни токени"
+  },
+  "outputTokens": {
+    "message": "Излазни токени"
+  },
+  "estimatedCost": {
+    "message": "Процењена цена"
+  },
+  "model": {
+    "message": "Модел"
+  },
+  "lastConversation": {
+    "message": "Последњи разговор"
+  },
+  "totalSession": {
+    "message": "Укупно за сесију"
+  },
+  "badgeStatusSafe": {
+    "message": "У реду"
+  },
+  "badgeStatusWarning": {
+    "message": "Пажња"
+  },
+  "badgeStatusDanger": {
+    "message": "Скоро пуно"
+  },
+  "badgeStatusCritical": {
+    "message": "Близу лимита"
+  },
+  "floatingBarTitle": {
+    "message": "Коришћење Claude"
+  },
+  "floatingBarCollapse": {
+    "message": "Кликните за скупљање"
+  },
+  "floatingBarExpand": {
+    "message": "Кликните за ширење"
+  },
+  "settingsTitle": {
+    "message": "Подешавања"
+  },
+  "refreshInterval": {
+    "message": "Интервал освежавања"
+  },
+  "minutes": {
+    "message": "минута"
+  },
+  "showFloatingBar": {
+    "message": "Прикажи лебдећу траку"
+  },
+  "showBadge": {
+    "message": "Прикажи значку"
+  },
+  "errorNoSession": {
+    "message": "Нисте пријављени на claude.ai"
+  },
+  "errorFetchFailed": {
+    "message": "Нису учитани подаци"
+  },
+  "errorRetrying": {
+    "message": "Покушавам поново…"
+  },
+  "hours": {
+    "message": "ч"
+  },
+  "mins": {
+    "message": "мин"
+  }
+}

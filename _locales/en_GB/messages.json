@@ -1,0 +1,116 @@
+{
+  "extName": {
+    "message": "Claude Usage Nyan"
+  },
+  "extDescription": {
+    "message": "Track your Claude usage — never hit the rate limit by surprise."
+  },
+  "popupTitle": {
+    "message": "Claude Usage"
+  },
+  "officialUsage": {
+    "message": "Official Usage"
+  },
+  "realtimeTracking": {
+    "message": "Real-time Tracking"
+  },
+  "sessionUsage": {
+    "message": "5-hour session"
+  },
+  "weeklyUsage": {
+    "message": "7-day usage"
+  },
+  "additionalUsage": {
+    "message": "Additional usage"
+  },
+  "resetsIn": {
+    "message": "Resets in $TIME$",
+    "placeholders": {
+      "TIME": {
+        "content": "$1",
+        "example": "2h 15m"
+      }
+    }
+  },
+  "used": {
+    "message": "used"
+  },
+  "remaining": {
+    "message": "remaining"
+  },
+  "of": {
+    "message": "of"
+  },
+  "unlimited": {
+    "message": "Unlimited"
+  },
+  "inputTokens": {
+    "message": "Input tokens"
+  },
+  "outputTokens": {
+    "message": "Output tokens"
+  },
+  "estimatedCost": {
+    "message": "Estimated cost"
+  },
+  "model": {
+    "message": "Model"
+  },
+  "lastConversation": {
+    "message": "Last conversation"
+  },
+  "totalSession": {
+    "message": "Session total"
+  },
+  "badgeStatusSafe": {
+    "message": "Safe"
+  },
+  "badgeStatusWarning": {
+    "message": "Watch out"
+  },
+  "badgeStatusDanger": {
+    "message": "Getting close"
+  },
+  "badgeStatusCritical": {
+    "message": "Almost full"
+  },
+  "floatingBarTitle": {
+    "message": "Claude Usage"
+  },
+  "floatingBarCollapse": {
+    "message": "Click to collapse"
+  },
+  "floatingBarExpand": {
+    "message": "Click to expand"
+  },
+  "settingsTitle": {
+    "message": "Settings"
+  },
+  "refreshInterval": {
+    "message": "Refresh interval"
+  },
+  "minutes": {
+    "message": "minutes"
+  },
+  "showFloatingBar": {
+    "message": "Show floating bar"
+  },
+  "showBadge": {
+    "message": "Show badge"
+  },
+  "errorNoSession": {
+    "message": "Not logged in to claude.ai"
+  },
+  "errorFetchFailed": {
+    "message": "Failed to fetch usage data"
+  },
+  "errorRetrying": {
+    "message": "Retrying..."
+  },
+  "hours": {
+    "message": "h"
+  },
+  "mins": {
+    "message": "m"
+  }
+}

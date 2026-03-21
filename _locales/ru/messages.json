@@ -1,0 +1,116 @@
+{
+  "extName": {
+    "message": "Claude Usage Nyan"
+  },
+  "extDescription": {
+    "message": "Отслеживайте использование Claude — без сюрпризов с лимитами."
+  },
+  "popupTitle": {
+    "message": "Использование Claude"
+  },
+  "officialUsage": {
+    "message": "Официальные данные"
+  },
+  "realtimeTracking": {
+    "message": "Отслеживание в реальном времени"
+  },
+  "sessionUsage": {
+    "message": "5-часовая сессия"
+  },
+  "weeklyUsage": {
+    "message": "Использование за 7 дней"
+  },
+  "additionalUsage": {
+    "message": "Дополнительное использование"
+  },
+  "resetsIn": {
+    "message": "Сброс через $TIME$",
+    "placeholders": {
+      "TIME": {
+        "content": "$1",
+        "example": "2h 15m"
+      }
+    }
+  },
+  "used": {
+    "message": "использовано"
+  },
+  "remaining": {
+    "message": "осталось"
+  },
+  "of": {
+    "message": "из"
+  },
+  "unlimited": {
+    "message": "Без ограничений"
+  },
+  "inputTokens": {
+    "message": "Входные токены"
+  },
+  "outputTokens": {
+    "message": "Выходные токены"
+  },
+  "estimatedCost": {
+    "message": "Примерная стоимость"
+  },
+  "model": {
+    "message": "Модель"
+  },
+  "lastConversation": {
+    "message": "Последний разговор"
+  },
+  "totalSession": {
+    "message": "Всего за сессию"
+  },
+  "badgeStatusSafe": {
+    "message": "Норма"
+  },
+  "badgeStatusWarning": {
+    "message": "Внимание"
+  },
+  "badgeStatusDanger": {
+    "message": "Почти заполнено"
+  },
+  "badgeStatusCritical": {
+    "message": "У лимита"
+  },
+  "floatingBarTitle": {
+    "message": "Использование Claude"
+  },
+  "floatingBarCollapse": {
+    "message": "Нажмите чтобы свернуть"
+  },
+  "floatingBarExpand": {
+    "message": "Нажмите чтобы развернуть"
+  },
+  "settingsTitle": {
+    "message": "Настройки"
+  },
+  "refreshInterval": {
+    "message": "Интервал обновления"
+  },
+  "minutes": {
+    "message": "минут"
+  },
+  "showFloatingBar": {
+    "message": "Показать плавающую панель"
+  },
+  "showBadge": {
+    "message": "Показать значок"
+  },
+  "errorNoSession": {
+    "message": "Не выполнен вход на claude.ai"
+  },
+  "errorFetchFailed": {
+    "message": "Не удалось загрузить данные"
+  },
+  "errorRetrying": {
+    "message": "Повторная попытка…"
+  },
+  "hours": {
+    "message": "ч"
+  },
+  "mins": {
+    "message": "мин"
+  }
+}

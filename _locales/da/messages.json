@@ -1,0 +1,116 @@
+{
+  "extName": {
+    "message": "Claude Usage Nyan"
+  },
+  "extDescription": {
+    "message": "Spor dit Claude-forbrug — bliv aldrig overrasket af hastighedsgrænsen."
+  },
+  "popupTitle": {
+    "message": "Claude-forbrug"
+  },
+  "officialUsage": {
+    "message": "Officielle data"
+  },
+  "realtimeTracking": {
+    "message": "Realtidssporing"
+  },
+  "sessionUsage": {
+    "message": "5-timers session"
+  },
+  "weeklyUsage": {
+    "message": "7-dages forbrug"
+  },
+  "additionalUsage": {
+    "message": "Ekstra forbrug"
+  },
+  "resetsIn": {
+    "message": "Nulstilles om $TIME$",
+    "placeholders": {
+      "TIME": {
+        "content": "$1",
+        "example": "2h 15m"
+      }
+    }
+  },
+  "used": {
+    "message": "brugt"
+  },
+  "remaining": {
+    "message": "tilbage"
+  },
+  "of": {
+    "message": "af"
+  },
+  "unlimited": {
+    "message": "Ubegrænset"
+  },
+  "inputTokens": {
+    "message": "Input-tokens"
+  },
+  "outputTokens": {
+    "message": "Output-tokens"
+  },
+  "estimatedCost": {
+    "message": "Anslået pris"
+  },
+  "model": {
+    "message": "Model"
+  },
+  "lastConversation": {
+    "message": "Seneste samtale"
+  },
+  "totalSession": {
+    "message": "Sessionstotal"
+  },
+  "badgeStatusSafe": {
+    "message": "OK"
+  },
+  "badgeStatusWarning": {
+    "message": "Bemærk"
+  },
+  "badgeStatusDanger": {
+    "message": "Næsten fuld"
+  },
+  "badgeStatusCritical": {
+    "message": "Tæt på grænsen"
+  },
+  "floatingBarTitle": {
+    "message": "Claude-forbrug"
+  },
+  "floatingBarCollapse": {
+    "message": "Klik for at skjule"
+  },
+  "floatingBarExpand": {
+    "message": "Klik for at vise"
+  },
+  "settingsTitle": {
+    "message": "Indstillinger"
+  },
+  "refreshInterval": {
+    "message": "Opdateringsinterval"
+  },
+  "minutes": {
+    "message": "minutter"
+  },
+  "showFloatingBar": {
+    "message": "Vis flydende bjælke"
+  },
+  "showBadge": {
+    "message": "Vis badge"
+  },
+  "errorNoSession": {
+    "message": "Ikke logget ind på claude.ai"
+  },
+  "errorFetchFailed": {
+    "message": "Kunne ikke hente forbrugsdata"
+  },
+  "errorRetrying": {
+    "message": "Prøver igen…"
+  },
+  "hours": {
+    "message": "t"
+  },
+  "mins": {
+    "message": "m"
+  }
+}

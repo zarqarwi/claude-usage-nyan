@@ -1,0 +1,116 @@
+{
+  "extName": {
+    "message": "Claude Usage Nyan"
+  },
+  "extDescription": {
+    "message": "Izsekojiet savu Claude lietojumu — bez pārsteigumiem ar ātruma ierobežojumiem."
+  },
+  "popupTitle": {
+    "message": "Claude lietojums"
+  },
+  "officialUsage": {
+    "message": "Oficiālie dati"
+  },
+  "realtimeTracking": {
+    "message": "Reāllaika izsekošana"
+  },
+  "sessionUsage": {
+    "message": "5 stundu sesija"
+  },
+  "weeklyUsage": {
+    "message": "7 dienu lietojums"
+  },
+  "additionalUsage": {
+    "message": "Papildu lietojums"
+  },
+  "resetsIn": {
+    "message": "Atiestatīšana pēc $TIME$",
+    "placeholders": {
+      "TIME": {
+        "content": "$1",
+        "example": "2h 15m"
+      }
+    }
+  },
+  "used": {
+    "message": "izmantots"
+  },
+  "remaining": {
+    "message": "atlikušais"
+  },
+  "of": {
+    "message": "no"
+  },
+  "unlimited": {
+    "message": "Neierobežots"
+  },
+  "inputTokens": {
+    "message": "Ievades marķieri"
+  },
+  "outputTokens": {
+    "message": "Izvades marķieri"
+  },
+  "estimatedCost": {
+    "message": "Aprēķinātās izmaksas"
+  },
+  "model": {
+    "message": "Modelis"
+  },
+  "lastConversation": {
+    "message": "Pēdējā saruna"
+  },
+  "totalSession": {
+    "message": "Sesijas kopā"
+  },
+  "badgeStatusSafe": {
+    "message": "Labi"
+  },
+  "badgeStatusWarning": {
+    "message": "Uzmanību"
+  },
+  "badgeStatusDanger": {
+    "message": "Gandrīz pilns"
+  },
+  "badgeStatusCritical": {
+    "message": "Pie limita"
+  },
+  "floatingBarTitle": {
+    "message": "Claude lietojums"
+  },
+  "floatingBarCollapse": {
+    "message": "Noklikšķiniet lai sakļautu"
+  },
+  "floatingBarExpand": {
+    "message": "Noklikšķiniet lai izvērstu"
+  },
+  "settingsTitle": {
+    "message": "Iestatījumi"
+  },
+  "refreshInterval": {
+    "message": "Atjaunināšanas intervāls"
+  },
+  "minutes": {
+    "message": "minūtes"
+  },
+  "showFloatingBar": {
+    "message": "Rādīt peldošo joslu"
+  },
+  "showBadge": {
+    "message": "Rādīt nozīmīti"
+  },
+  "errorNoSession": {
+    "message": "Nav pieteicies claude.ai"
+  },
+  "errorFetchFailed": {
+    "message": "Neizdevās ielādēt datus"
+  },
+  "errorRetrying": {
+    "message": "Mēģina vēlreiz…"
+  },
+  "hours": {
+    "message": "st"
+  },
+  "mins": {
+    "message": "min"
+  }
+}

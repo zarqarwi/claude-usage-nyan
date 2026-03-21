@@ -1,0 +1,116 @@
+{
+  "extName": {
+    "message": "Claude Usage Nyan"
+  },
+  "extDescription": {
+    "message": "Sledujte využití Claude — žádné překvapení s limity."
+  },
+  "popupTitle": {
+    "message": "Využití Claude"
+  },
+  "officialUsage": {
+    "message": "Oficiální data"
+  },
+  "realtimeTracking": {
+    "message": "Sledování v reálném čase"
+  },
+  "sessionUsage": {
+    "message": "5hodinová relace"
+  },
+  "weeklyUsage": {
+    "message": "7denní využití"
+  },
+  "additionalUsage": {
+    "message": "Dodatečné využití"
+  },
+  "resetsIn": {
+    "message": "Reset za $TIME$",
+    "placeholders": {
+      "TIME": {
+        "content": "$1",
+        "example": "2h 15m"
+      }
+    }
+  },
+  "used": {
+    "message": "využito"
+  },
+  "remaining": {
+    "message": "zbývá"
+  },
+  "of": {
+    "message": "z"
+  },
+  "unlimited": {
+    "message": "Neomezené"
+  },
+  "inputTokens": {
+    "message": "Vstupní tokeny"
+  },
+  "outputTokens": {
+    "message": "Výstupní tokeny"
+  },
+  "estimatedCost": {
+    "message": "Odhadovaná cena"
+  },
+  "model": {
+    "message": "Model"
+  },
+  "lastConversation": {
+    "message": "Poslední konverzace"
+  },
+  "totalSession": {
+    "message": "Celkem za relaci"
+  },
+  "badgeStatusSafe": {
+    "message": "V pořádku"
+  },
+  "badgeStatusWarning": {
+    "message": "Pozor"
+  },
+  "badgeStatusDanger": {
+    "message": "Téměř plné"
+  },
+  "badgeStatusCritical": {
+    "message": "Na hranici"
+  },
+  "floatingBarTitle": {
+    "message": "Využití Claude"
+  },
+  "floatingBarCollapse": {
+    "message": "Kliknutím sbalíte"
+  },
+  "floatingBarExpand": {
+    "message": "Kliknutím rozbalíte"
+  },
+  "settingsTitle": {
+    "message": "Nastavení"
+  },
+  "refreshInterval": {
+    "message": "Interval aktualizace"
+  },
+  "minutes": {
+    "message": "minut"
+  },
+  "showFloatingBar": {
+    "message": "Zobrazit plovoucí lištu"
+  },
+  "showBadge": {
+    "message": "Zobrazit odznak"
+  },
+  "errorNoSession": {
+    "message": "Nejste přihlášeni na claude.ai"
+  },
+  "errorFetchFailed": {
+    "message": "Nepodařilo se načíst data"
+  },
+  "errorRetrying": {
+    "message": "Zkouším znovu…"
+  },
+  "hours": {
+    "message": "h"
+  },
+  "mins": {
+    "message": "min"
+  }
+}

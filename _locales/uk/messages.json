@@ -1,0 +1,116 @@
+{
+  "extName": {
+    "message": "Claude Usage Nyan"
+  },
+  "extDescription": {
+    "message": "Відстежуйте використання Claude — без несподіванок з лімітами."
+  },
+  "popupTitle": {
+    "message": "Використання Claude"
+  },
+  "officialUsage": {
+    "message": "Офіційні дані"
+  },
+  "realtimeTracking": {
+    "message": "Відстеження в реальному часі"
+  },
+  "sessionUsage": {
+    "message": "5-годинна сесія"
+  },
+  "weeklyUsage": {
+    "message": "Використання за 7 днів"
+  },
+  "additionalUsage": {
+    "message": "Додаткове використання"
+  },
+  "resetsIn": {
+    "message": "Скидання через $TIME$",
+    "placeholders": {
+      "TIME": {
+        "content": "$1",
+        "example": "2h 15m"
+      }
+    }
+  },
+  "used": {
+    "message": "використано"
+  },
+  "remaining": {
+    "message": "залишилось"
+  },
+  "of": {
+    "message": "з"
+  },
+  "unlimited": {
+    "message": "Без обмежень"
+  },
+  "inputTokens": {
+    "message": "Вхідні токени"
+  },
+  "outputTokens": {
+    "message": "Вихідні токени"
+  },
+  "estimatedCost": {
+    "message": "Орієнтовна вартість"
+  },
+  "model": {
+    "message": "Модель"
+  },
+  "lastConversation": {
+    "message": "Остання розмова"
+  },
+  "totalSession": {
+    "message": "Всього за сесію"
+  },
+  "badgeStatusSafe": {
+    "message": "Норма"
+  },
+  "badgeStatusWarning": {
+    "message": "Увага"
+  },
+  "badgeStatusDanger": {
+    "message": "Майже заповнено"
+  },
+  "badgeStatusCritical": {
+    "message": "Біля ліміту"
+  },
+  "floatingBarTitle": {
+    "message": "Використання Claude"
+  },
+  "floatingBarCollapse": {
+    "message": "Натисніть щоб згорнути"
+  },
+  "floatingBarExpand": {
+    "message": "Натисніть щоб розгорнути"
+  },
+  "settingsTitle": {
+    "message": "Налаштування"
+  },
+  "refreshInterval": {
+    "message": "Інтервал оновлення"
+  },
+  "minutes": {
+    "message": "хвилин"
+  },
+  "showFloatingBar": {
+    "message": "Показати плаваючу панель"
+  },
+  "showBadge": {
+    "message": "Показати значок"
+  },
+  "errorNoSession": {
+    "message": "Не виконано вхід на claude.ai"
+  },
+  "errorFetchFailed": {
+    "message": "Не вдалося завантажити дані"
+  },
+  "errorRetrying": {
+    "message": "Повторна спроба…"
+  },
+  "hours": {
+    "message": "год"
+  },
+  "mins": {
+    "message": "хв"
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "extName": {
+    "message": "Claude Usage Nyan"
+  },
+  "extDescription": {
+    "message": "追踪 Claude 用量，不再意外撞到 rate limit。"
+  },
+  "popupTitle": {
+    "message": "Claude 用量"
+  },
+  "officialUsage": {
+    "message": "官方用量"
+  },
+  "realtimeTracking": {
+    "message": "实时追踪"
+  },
+  "sessionUsage": {
+    "message": "5 小时区间"
+  },
+  "weeklyUsage": {
+    "message": "7 天用量"
+  },
+  "additionalUsage": {
+    "message": "额外用量"
+  },
+  "resetsIn": {
+    "message": "$TIME$ 后重置",
+    "placeholders": {
+      "TIME": {
+        "content": "$1",
+        "example": "2h 15m"
+      }
+    }
+  },
+  "used": {
+    "message": "已使用"
+  },
+  "remaining": {
+    "message": "剩余"
+  },
+  "of": {
+    "message": "/"
+  },
+  "unlimited": {
+    "message": "无限制"
+  },
+  "inputTokens": {
+    "message": "输入 token"
+  },
+  "outputTokens": {
+    "message": "输出 token"
+  },
+  "estimatedCost": {
+    "message": "预估费用"
+  },
+  "model": {
+    "message": "模型"
+  },
+  "lastConversation": {
+    "message": "上次对话"
+  },
+  "totalSession": {
+    "message": "本次合计"
+  },
+  "badgeStatusSafe": {
+    "message": "安全"
+  },
+  "badgeStatusWarning": {
+    "message": "注意"
+  },
+  "badgeStatusDanger": {
+    "message": "快满了"
+  },
+  "badgeStatusCritical": {
+    "message": "即将用完"
+  },
+  "floatingBarTitle": {
+    "message": "Claude 用量"
+  },
+  "floatingBarCollapse": {
+    "message": "点击收起"
+  },
+  "floatingBarExpand": {
+    "message": "点击展开"
+  },
+  "settingsTitle": {
+    "message": "设置"
+  },
+  "refreshInterval": {
+    "message": "更新间隔"
+  },
+  "minutes": {
+    "message": "分钟"
+  },
+  "showFloatingBar": {
+    "message": "显示浮动状态条"
+  },
+  "showBadge": {
+    "message": "显示工具栏徽章"
+  },
+  "errorNoSession": {
+    "message": "尚未登录 claude.ai"
+  },
+  "errorFetchFailed": {
+    "message": "无法获取用量数据"
+  },
+  "errorRetrying": {
+    "message": "重试中…"
+  },
+  "hours": {
+    "message": "时"
+  },
+  "mins": {
+    "message": "分"
+  }
+}

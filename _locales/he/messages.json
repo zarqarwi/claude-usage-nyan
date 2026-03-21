@@ -1,0 +1,116 @@
+{
+  "extName": {
+    "message": "Claude Usage Nyan"
+  },
+  "extDescription": {
+    "message": "עקוב אחר השימוש ב-Claude — בלי הפתעות ממגבלת קצב."
+  },
+  "popupTitle": {
+    "message": "שימוש ב-Claude"
+  },
+  "officialUsage": {
+    "message": "נתונים רשמיים"
+  },
+  "realtimeTracking": {
+    "message": "מעקב בזמן אמת"
+  },
+  "sessionUsage": {
+    "message": "מושב 5 שעות"
+  },
+  "weeklyUsage": {
+    "message": "שימוש 7 ימים"
+  },
+  "additionalUsage": {
+    "message": "שימוש נוסף"
+  },
+  "resetsIn": {
+    "message": "איפוס בעוד $TIME$",
+    "placeholders": {
+      "TIME": {
+        "content": "$1",
+        "example": "2h 15m"
+      }
+    }
+  },
+  "used": {
+    "message": "בשימוש"
+  },
+  "remaining": {
+    "message": "נותר"
+  },
+  "of": {
+    "message": "מתוך"
+  },
+  "unlimited": {
+    "message": "ללא הגבלה"
+  },
+  "inputTokens": {
+    "message": "טוקנים נכנסים"
+  },
+  "outputTokens": {
+    "message": "טוקנים יוצאים"
+  },
+  "estimatedCost": {
+    "message": "עלות משוערת"
+  },
+  "model": {
+    "message": "מודל"
+  },
+  "lastConversation": {
+    "message": "שיחה אחרונה"
+  },
+  "totalSession": {
+    "message": "סה״כ מושב"
+  },
+  "badgeStatusSafe": {
+    "message": "תקין"
+  },
+  "badgeStatusWarning": {
+    "message": "שים לב"
+  },
+  "badgeStatusDanger": {
+    "message": "כמעט מלא"
+  },
+  "badgeStatusCritical": {
+    "message": "קרוב למגבלה"
+  },
+  "floatingBarTitle": {
+    "message": "שימוש ב-Claude"
+  },
+  "floatingBarCollapse": {
+    "message": "לחץ לכיווץ"
+  },
+  "floatingBarExpand": {
+    "message": "לחץ להרחבה"
+  },
+  "settingsTitle": {
+    "message": "הגדרות"
+  },
+  "refreshInterval": {
+    "message": "מרווח עדכון"
+  },
+  "minutes": {
+    "message": "דקות"
+  },
+  "showFloatingBar": {
+    "message": "הצג סרגל צף"
+  },
+  "showBadge": {
+    "message": "הצג תג"
+  },
+  "errorNoSession": {
+    "message": "לא מחובר ל-claude.ai"
+  },
+  "errorFetchFailed": {
+    "message": "נכשל בטעינת נתוני שימוש"
+  },
+  "errorRetrying": {
+    "message": "מנסה שוב…"
+  },
+  "hours": {
+    "message": "ש"
+  },
+  "mins": {
+    "message": "ד"
+  }
+}

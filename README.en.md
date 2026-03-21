@@ -11,9 +11,17 @@ Track your Claude usage in a cute way!
 - 🎨 Cute gradient progress bars + shimmer animation
 - 🟢🟡🟠🔴 Color-coded at a glance
 - 🔄 Auto-refresh every 5 minutes + manual refresh
+- 🌍 55 languages supported — auto-detects your Chrome language setting
 - 🔒 All data stays local — nothing sent to external servers
+- 📄 [Privacy Policy](PRIVACY.md)
 
-## Installation (Developer Mode)
+## Installation
+
+### Option 1: Chrome Web Store (Recommended)
+
+Install directly from the [Chrome Web Store](https://chrome.google.com/webstore/detail/TODO_FILL_AFTER_APPROVAL).
+
+### Option 2: Manual Install (Developer Mode)
 
 1. Open Chrome, go to `chrome://extensions/`
 2. Enable "Developer mode" in the top right
